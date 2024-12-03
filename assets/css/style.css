@@ -9,3 +9,9 @@ body {
 .item-space {
     margin: 20px;
 }
+
+#hero {
+    background: url('../images/1161920_1000_1.jpg') no-repeat center;
+    background-size: cover;
+    height: 600px;
+}
