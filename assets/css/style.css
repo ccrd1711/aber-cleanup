@@ -1,17 +1,33 @@
+header {
+    background-color: rgb(95, 167, 230);
+    position: fixed;
+    width: 100%;
+    min-height: 50px;
+    z-index: 1000;
+}
+
+header, a {
+    color: aliceblue;
+}
+
+main {
+    padding-top: 80px;
+}
+
 body {
     background-color: slategray;
 }
 
-.navbar-expand-lg {
-    background-color: rgb(93, 93, 204);
-}
-
-.item-space {
-    margin: 20px;
-}
-
 #hero {
-    background: url('../images/1161920_1000_1.jpg') no-repeat center;
+    background: url('../images/1161920_1000_1.jpg') no-repeat center center;
     background-size: cover;
-    height: 600px;
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+#picture-text {
+    position: absolute;
+    padding-top: 60px;
 }
