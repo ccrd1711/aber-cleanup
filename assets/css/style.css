@@ -1,3 +1,11 @@
 body {
     background-color: slategray;
 }
+
+.navbar-expand-lg {
+    background-color: rgb(93, 93, 204);
+}
+
+.item-space {
+    margin: 20px;
+}
