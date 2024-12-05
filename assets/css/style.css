@@ -127,8 +127,6 @@ form {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    margin-top: 10%;
-    margin-bottom: 10%;
 }
 
 #register {
@@ -140,7 +138,6 @@ form {
 #registration-form {
     color:rgb(14, 21, 21);
     background-color: #cf9c3f;
-    opacity: calc(0.5);
 }
 
 #social-networks {
