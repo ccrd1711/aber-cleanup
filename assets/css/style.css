@@ -16,35 +16,59 @@ h1 {
 }
 
   
-#menu {
-    font-size: 120%;
-    list-style-type: none;
-}
-
-nav {
-    position: relative;
-    color: #cf9c3f;
-    width: 100%;
-    display: none;
-    top: 100%;
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cf9c3f;  
+    padding: 10px 20px;
+    position: relative; 
+  }
+  
+  #nav-menu {
+    display: none;  
+ }
+  
+  
+  .nav-menu-plus {
+    font-size: 30px;  
+    color: white;
+  }
+  
+  /* Menu styling */
+  #menu {
+    display: none;  
+    position: absolute;
+    top: 100%;  
     right: 0;
-}
-
-#nav-menu:checked~nav {
+    background-color: #cf9c3f;
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    border-radius: 5px;
+  }
+  
+  /* Shows the menu when checkbox is checked - remember */
+  #nav-menu:checked ~ #menu {
     display: block;
-}
-
-#nav-menu {
-    display: none;
-    top: 0;
-    right: 0;
-}
-
-.nav-menu-plus {
-    font-size: 50px;
-    margin-right: 20px;
-}
-
+  }
+  
+  #menu li {
+    padding: 10px 20px;
+  }
+  
+  /*dropdown font*/
+  #menu a {
+    text-decoration: none;
+    color: #fefefe;
+    display: block;
+  }
+  
+  #menu a:hover {
+    background-color: #f0f0f0;  
+  }
+  
   
 main {
     padding-top: 80px;
@@ -57,7 +81,7 @@ body {
 #hero {
     background: url('../images/1161920_1000_1.jpg') no-repeat center center;
     background-size: cover;
-    width: 100%;
+    width: 500px;
     height: 500px;
     margin: 0 auto;
     margin-bottom: 0;
@@ -66,17 +90,21 @@ body {
 #hero-text {
     position: absolute;
     padding-top: 60px;
+    padding-left: 40px;
 }
 
 #intro-text {
     background-color: #cf9c3f;
     text-align: center;
+    width: 500px;
 }
 
 .image-group {
-    display: flex;             
+    display: grid;             
     justify-content: space-between;
-    gap: 5px;                
+    gap: 5px;   
+    width: 500px; 
+    grid-template-columns: repeat(3, 1fr);            
   }
   
 .image-item img {
@@ -87,11 +115,11 @@ body {
 
   
 .upcoming-events {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
+    display: grid; 
     gap: 20px;  
     padding: 40px;
     background-color: slategray;
+    grid-template-columns: repeat(3, 1fr);
   }
   
 .event {
@@ -140,16 +168,33 @@ form {
     background-color: #cf9c3f;
 }
 
+footer {
+    width: 500px;
+    justify-content: center;
+}
+
 #social-networks {
-    text-align: center;
-    padding: 20px 0;
     display: flex;
-    justify-content:space-around;
+    padding: 20px 0;
+    justify-content: space-evenly;
+    align-items: center;
     list-style-type: none;
 }
 
 #social-networks i {
     font-size: 150%;
-    padding: 10%;
     color: #cf9c3f;
+}
+
+/* phones query, images in a column */
+@media (max-width: 768px) {
+    .upcoming-events {
+        grid-template-columns: 1fr; 
+    }
+    .image-group {
+        grid-template-columns: 1fr;
+    }
+    .navbar {
+        width: 100%; /* button showing off screen on mobile - fix asap */
+    }
 }
