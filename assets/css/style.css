@@ -1,15 +1,4 @@
-@media (max-width: 768px) {
-    .upcoming-events {
-      display: flex;
-      flex-direction: column;  /* Stack events vertically on smaller screens */
-    }
-  
-    .event {
-      flex: 1 1 100%;  /* Make each event take full width */
-    }
-  }
-  
-  header {
+header {
     background-color: #cf9c3f;
     position: fixed;
     width: 100%;
@@ -95,39 +84,37 @@ body {
     min-height: 100%;
   }
 
-
-  .upcoming-events {
+  
+.upcoming-events {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-    gap: 20px;  /* Space between event blocks */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;  
     padding: 40px;
     background-color: slategray;
   }
   
-  .event {
-    background-color: #fff;
+.event {
+    background-image: url(/assets/images/beachclean.jpg);
     padding: 20px;
     border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius: 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
+}
   
-  .event h3 {
+.event h3 {
     font-size: 24px;
   }
   
-  .event-date {
+.event-date {
     font-size: 18px;
     color: #888;
     margin-bottom: 15px;
   }
   
-  .event-description {
+.event-description {
     font-size: 16px;
     color: #333;
   }
-  
-  
 
 #social-networks {
     text-align: center;
