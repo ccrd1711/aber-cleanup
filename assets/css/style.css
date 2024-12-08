@@ -127,7 +127,7 @@ body, main {
   }
   
 .event {
-    background-image: url(/assets/images/beachclean.jpg);
+    background-image: url('../images/beachclean.jpg');
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 0;
