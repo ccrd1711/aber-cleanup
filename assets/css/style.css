@@ -78,6 +78,12 @@ body {
     background-color: slategray;
 }
 
+body, main {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 #hero {
     background: url('../images/1161920_1000_1.jpg') no-repeat center center;
     background-size: cover;
@@ -115,11 +121,9 @@ body {
 
   
 .upcoming-events {
-    display: grid; 
     gap: 20px;  
-    padding: 40px;
+    /*padding: 40px; This is stopping upcoming events from being 100% in media query but use if needed */ 
     background-color: slategray;
-    grid-template-columns: repeat(3, 1fr);
   }
   
 .event {
@@ -168,6 +172,7 @@ form {
     background-color: #cf9c3f;
 }
 
+/* Footer on every page */
 footer {
     width: 500px;
     justify-content: center;
@@ -186,15 +191,19 @@ footer {
     color: #cf9c3f;
 }
 
-/* phones query, images in a column */
-@media (max-width: 768px) {
+/* phones/small screens query, images in a column */
+@media screen and (min-width: 576px) {
     .upcoming-events {
-        grid-template-columns: 1fr; 
+      display: grid;
+      width: 100vw; /*100 of the container they're in, not screen, change if desired*/
     }
+
+    .event {
+      width: 100vw;
+    }
+
     .image-group {
-        grid-template-columns: 1fr;
-    }
-    .navbar {
-        width: 100%; /* button showing off screen on mobile - fix asap */
+      display: grid;
+      width: 100vw;
     }
 }
