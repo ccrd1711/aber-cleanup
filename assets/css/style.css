@@ -102,7 +102,7 @@ body, main {
 #intro-text {
     background-color: #cf9c3f;
     text-align: center;
-    width: 500px;
+    /*width: 500px;*/
 }
 
 .image-group {
@@ -192,7 +192,7 @@ footer {
 }
 
 /* phones/small screens query, images in a column */
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 576px) {
     .upcoming-events {
       display: grid;
       width: 100vw; /*100 of the container they're in, not screen, change if desired*/
@@ -204,6 +204,14 @@ footer {
 
     .image-group {
       display: grid;
+      width: 100%;
+      grid-template-columns: 1fr;
+    }
+
+    #intro-text {
+    width: 100vw;}
+
+    #hero {
       width: 100vw;
     }
 }
