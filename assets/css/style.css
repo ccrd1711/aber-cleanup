@@ -176,9 +176,28 @@ margin: 0;
     color: #333;
   }
 
-/* Registration page stuff bootstrap build */
+/* About page styling */
+.about-foot {
+  position: absolute;
+  bottom: 0
+}
 
+/* Registration page styling with bootstrap build */
 
+#signup-name, #signup-email, #donation-email, #donation-amount, #button {
+  border-radius: 0;
+}
+
+.reg-page main {
+  background-image: url(../images/beachclean.jpg);
+  padding-bottom: 10px;
+  background-position: center;
+}
+
+.reg-foot {
+  position: absolute;
+  bottom: 0;
+}
 
 /* Footer on every page */
 footer {

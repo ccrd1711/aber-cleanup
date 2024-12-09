@@ -18,7 +18,7 @@
     <title>Aber Beach Cleanup</title>
 </head>
 
-<body>
+<body class="reg-page">
     <header>
         <a href="index.html">
             <h1>Aber Beach Cleanup</h1>
@@ -37,11 +37,12 @@
     </header>
     <!-- Hero section -->
     <main>
+        
         <!--Bootstrap form x2, test -->
         <section id="forms-section" class="container my-5">
             <div class="row">
                 <!-- Signup form -->
-                <div class="col-md-6">
+                <div class="col-md-5">
                     <h2>Sign up</h2>
                     <form id="register-form" method="POST" action="https://formdump.codeinstitute.net">
                         <div class="mb-3">
@@ -52,11 +53,15 @@
                             <label for="signup-email" class="form-label">Email</label>
                             <input type="email" class="form-control" id="signup-email" placeholder="Enter your email" required>
                         </div>
-                        <button type="submit" class="btn btn-primary">Sign Up</button>
+                        <button type="submit" class="btn btn-primary" id="button">Sign Up</button>
                     </form>
             </div>
+
+            <div class="col-md-2">
+            </div> <!-- gap between forms -->
+
             <!-- Donation Form -->
-        <div class="col-md-6">
+        <div class="col-md-5">
             <h2>Donate</h2>
             <form id="donate-form" method="POST" action="https://formdump.codeinstitute.net">
                 <div class="mb-3">
@@ -67,14 +72,14 @@
                     <label for="donation-email" class="form-label">Email</label>
                     <input type="email" class="form-control" id="donation-email" placeholder="Enter your email" required>
                 </div>
-                <button type="submit" class="btn btn-success">Donate</button>
+                <button type="submit" class="btn btn-success" id="button">Donate</button>
             </form>
         </div>
          </div>
      </section>
     </main>
     <!-- footer for social media links -->
-    <footer>
+    <footer class="reg-foot">
         <ul id="social-networks">
             <li>
                 <a href="https://www.facebook.com/" target="_blank" rel="noopener"
