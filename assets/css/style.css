@@ -189,7 +189,7 @@ margin: 0;
 }
 
 .reg-page main {
-  background-image: url(../images/beachclean.jpg);
+  background-image: url(../images/sandhands.webp);
   padding-bottom: 10px;
   background-position: center;
 }
@@ -254,6 +254,11 @@ footer {
 /*Tablets media query*/
 @media screen and (min-width: 577px) and (max-width: 768px) 
 {
+  header h1 {
+    padding-top: 10px;
+    font-size: 30px;
+  }
+
   .upcoming-events {
     display: grid;
     gap: 20px;
@@ -290,6 +295,11 @@ footer {
 /*Larger screens media query*/
 @media screen and (min-width: 769px) 
 {
+  header h1 {
+    padding-top: 10px;
+    font-size: 30px;
+  }
+
    .upcoming-events {
     display: grid;
     gap: 20px;
@@ -313,5 +323,11 @@ footer {
   #intro-text {
     padding-top: 10px;
     width: 100%; /*Issue with no margin down right side on header, intro and pics - this is a test */
+  }
+
+  .reg-page main {
+    background-image: url(../images/sandhands.webp);
+    padding-bottom: 10px;
+    background-size: cover;
   }
 }
