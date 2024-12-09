@@ -1,12 +1,12 @@
 /*Overflow issue*/
-body {
+/*body {
   overflow-x: hidden;
-}
+}*/
 
 header {
     background-color: #cf9c3f;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     left: 0;
     right: 0;
     min-height: 75px;
@@ -78,7 +78,8 @@ h1 {
   
   
 main {
-    padding-top: 80px;
+    padding-top: 75px;
+    margin: 0 10px;
 }
 
 body {
@@ -88,13 +89,13 @@ body {
 body, main {
   width: 100%;
   margin: 0;
-  padding: 0;
 }
 
 #hero {
     background: url('../images/1161920_1000_1.jpg') no-repeat center center;
     background-size: cover;
-    width: 100%;
+    width: 100vw;
+    padding: 0 10px;
     height: 500px;
     margin: 0 auto;
     margin-bottom: 0;
@@ -109,7 +110,7 @@ body, main {
 #intro-text {
     background-color: #cf9c3f;
     text-align: center;
-    /*width: 500px;*/
+    padding: 0 10px;
 }
 
 .image-group {
@@ -129,8 +130,9 @@ body, main {
   
 .upcoming-events {
     gap: 20px;  
-    /*padding: 40px; This is stopping upcoming events from being 100% in media query but use if needed */ 
+    padding: 10px 10px; /* Gap at sides and spacing on Cleans text from pictures */
     background-color: slategray;
+    margin-left: 0;
   }
   
 .event {
@@ -202,17 +204,15 @@ footer {
 @media screen and (max-width: 576px) {
     .upcoming-events {
       display: grid;
-      width: 100vw; /*100 of the container they're in, not screen, change if desired*/
-    }
-
-    .event {
-      width: 100vw;
+      width: 100vw; 
     }
 
     .image-group {
       display: grid;
-      width: 100%;
+      width: 100vw;
+      padding: 0 10px;
       grid-template-columns: 1fr;
+      justify-content: center;
     }
 
     #intro-text {
@@ -221,4 +221,9 @@ footer {
     #hero {
       width: 100vw;
     }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+
+
 }
