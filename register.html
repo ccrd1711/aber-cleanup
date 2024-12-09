@@ -37,21 +37,41 @@
     </header>
     <!-- Hero section -->
     <main>
-        <!-- Form here -->
-        <section id="register">
-            <form id="registration-form" method="POST" action="https://formdump.codeinstitute.net">
-                <h2>Sign up (Put logo here)</h2>
-                <label for="first-name">First name</label>
-                <input type="text" name="first_name" id="first-name" class="text-input" required>
-                <label for="last-name">Last name</label>
-                <input type="text" name="last_name" id="last-name" class="text-input" required>
-                <label for="email-address">Email address</label>
-                <input type="email" name="email_address" id="email-address" class="text-input" required>
-                <button type="submit" class="register-button">Let's clean!
-                </button>
+        <!--Bootstrap form x2, test -->
+        <section id="forms-section" class="container my-5">
+            <div class="row">
+                <!-- Signup form -->
+                <div class="col-md-6">
+                    <h2>Sign up</h2>
+                    <form id="register-form" method="POST" action="https://formdump.codeinstitute.net">
+                        <div class="mb-3">
+                            <label for="signup-name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="signup-name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="signup-email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="signup-email" placeholder="Enter your email" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sign Up</button>
+                    </form>
+            </div>
+            <!-- Donation Form -->
+        <div class="col-md-6">
+            <h2>Donate</h2>
+            <form id="donate-form" method="POST" action="https://formdump.codeinstitute.net">
+                <div class="mb-3">
+                    <label for="donation-amount" class="form-label">Donation Amount</label>
+                    <input type="number" class="form-control" id="donation-amount" placeholder="Enter amount" required>
+                </div>
+                <div class="mb-3">
+                    <label for="donation-email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="donation-email" placeholder="Enter your email" required>
+                </div>
+                <button type="submit" class="btn btn-success">Donate</button>
             </form>
-        </section>
-
+        </div>
+         </div>
+     </section>
     </main>
     <!-- footer for social media links -->
     <footer>

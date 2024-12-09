@@ -176,31 +176,9 @@ margin: 0;
     color: #333;
   }
 
-/* Registration page stuff */
+/* Registration page stuff bootstrap build */
 
-form {
-    display: flex;
-    flex-direction: column;
-    max-width: 50%;
-    margin: 0 auto; 
-    align-items: center;
-    justify-content: center;
-    height: 50vh;
-}
 
-#register {
-    background: url(/assets/images/sandhands.webp);
-    background-size: cover;
-    min-height: 600px;
-}
-
-#registration-form {
-    background-color: rgba(207, 156, 63, 0.7); 
-}
-
-#registration-form h2 {
-  color:rgb(14, 21, 21,);
-}
 
 /* Footer on every page */
 footer {
