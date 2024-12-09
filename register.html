@@ -61,15 +61,15 @@
             </div> <!-- gap between forms -->
 
             <!-- Donation Form -->
-        <div class="col-md-5">
+        <div class="col-md-5" id="donate-text">
             <h2>Donate</h2>
             <form id="donate-form" method="POST" action="https://formdump.codeinstitute.net">
                 <div class="mb-3">
-                    <label for="donation-amount" class="form-label">Donation Amount</label>
+                    <label for="donation-amount" class="form-label" id="donation-text">Donation Amount</label>
                     <input type="number" class="form-control" id="donation-amount" placeholder="Enter amount" required>
                 </div>
                 <div class="mb-3">
-                    <label for="donation-email" class="form-label">Email</label>
+                    <label for="donation-email" class="form-label" id="donation-text">Email</label>
                     <input type="email" class="form-control" id="donation-email" placeholder="Enter your email" required>
                 </div>
                 <button type="submit" class="btn btn-success" id="button">Donate</button>
