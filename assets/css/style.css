@@ -189,7 +189,7 @@ margin: 0;
 }
 
 .reg-page main {
-  background-image: url(../images/sandhands.webp);
+  background-image: url(../images/IMG_4741.jpeg);
   padding-bottom: 10px;
   background-position: center;
 }
@@ -246,6 +246,7 @@ footer {
 
     /*Image to fill full reg page on mobile*/
   .reg-page main {
+    background-position: center;
     background-size: cover;
     height: 100vh;
   }
@@ -286,6 +287,7 @@ footer {
   
   /*Image to fill full reg page on Tab*/
   .reg-page main {
+    background-position: center;
     background-size: cover;
     height: 100vh;
   }
@@ -326,7 +328,6 @@ footer {
   }
 
   .reg-page main {
-    background-image: url(../images/sandhands.webp);
     padding-bottom: 10px;
     background-size: cover;
   }
