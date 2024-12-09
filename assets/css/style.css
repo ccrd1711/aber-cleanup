@@ -7,11 +7,13 @@ header {
     background-color: #cf9c3f;
     position: fixed;
     width: 100%;
+    top: 0;
     left: 0;
     right: 0;
-    min-height: 75px;
+    min-height: 25px;
     display: flex;
     justify-content: space-between;
+    margin: 0;
 }
 
 header, a {
@@ -30,7 +32,7 @@ h1 {
     align-items: center;
     background-color: #cf9c3f;  
     padding: 10px 20px;
-    position: relative; 
+    position: relative;
   }
   
   #nav-menu {
@@ -39,8 +41,10 @@ h1 {
   
   
   .nav-menu-plus {
+    position: relative;
     font-size: 30px;  
     color: white;
+    z-index: 1200;
   }
   
   /* Menu styling */
@@ -54,11 +58,13 @@ h1 {
     padding: 10px 0;
     margin: 0;
     border-radius: 5px;
+    z-index: 1100;
   }
   
   /* Shows the menu when checkbox is checked - remember */
   #nav-menu:checked ~ #menu {
     display: block;
+    z-index: 1100;
   }
   
   #menu li {
@@ -78,7 +84,7 @@ h1 {
   
   
 main {
-    padding-top: 75px;
+    padding-top: 60px;
     margin: 0 10px;
 }
 
@@ -95,15 +101,16 @@ body, main {
     background: url('../images/1161920_1000_1.jpg') no-repeat center center;
     background-size: cover;
     width: 100vw;
-    padding: 0 10px;
     height: 500px;
     margin: 0 auto;
     margin-bottom: 0;
+    position: relative;
 }
 
 #hero-text {
+    color: white;
     position: absolute;
-    padding-top: 60px;
+    bottom: 50px;
     padding-left: 40px;
 }
 
@@ -116,7 +123,7 @@ body, main {
 .image-group {
     display: grid;             
     justify-content: space-between;
-    gap: 5px;   
+    gap: 10px;   
     width: 500px; 
     grid-template-columns: repeat(3, 1fr);            
   }
@@ -129,7 +136,7 @@ body, main {
 
   
 .upcoming-events {
-    gap: 20px;  
+    gap: 10px;  
     padding: 10px 10px; /* Gap at sides and spacing on Cleans text from pictures */
     background-color: slategray;
     margin-left: 0;
@@ -202,6 +209,11 @@ footer {
 
 /* phones/small screens query, images in a column */
 @media screen and (max-width: 576px) {
+    header h1 {
+      padding-top: 10px;
+      font-size: 30px;
+    }
+
     .upcoming-events {
       display: grid;
       width: 100vw; 
