@@ -195,8 +195,11 @@ form {
 }
 
 #registration-form {
-    color:rgb(14, 21, 21);
-    background-color: #cf9c3f;
+    background-color: rgba(207, 156, 63, 0.7); 
+}
+
+#registration-form h2 {
+  color:rgb(14, 21, 21,);
 }
 
 /* Footer on every page */
@@ -245,7 +248,8 @@ footer {
     }
 }
 
-@media screen and (min-width: 577px) and (max-width: 768px) /*Tablets*/
+/*Tablets media query*/
+@media screen and (min-width: 577px) and (max-width: 768px) 
 {
   .upcoming-events {
     display: grid;
@@ -269,11 +273,13 @@ footer {
 
   #intro-text {
     padding-top: 10px;
-    width: 100%; /*Issue with no margin down right side on header, intro and pics - this is a test */
+    width: 100%; 
   }
 }
 
-@media screen and (min-width: 769px) {
+/*Larger screens media query*/
+@media screen and (min-width: 769px) 
+{
    .upcoming-events {
     display: grid;
     gap: 20px;
