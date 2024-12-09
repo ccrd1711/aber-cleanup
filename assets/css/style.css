@@ -272,3 +272,30 @@ footer {
     width: 100%; /*Issue with no margin down right side on header, intro and pics - this is a test */
   }
 }
+
+@media screen and (min-width: 769px) {
+   .upcoming-events {
+    display: grid;
+    gap: 20px;
+  }
+
+  .image-group {
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr); 
+    padding: 0 10px;
+  }
+
+  .image-group h2 {
+    grid-column: span 3;
+    text-align: center;
+    padding: 10px;
+  }
+
+  #intro-text {
+    padding-top: 10px;
+    width: 100%; /*Issue with no margin down right side on header, intro and pics - this is a test */
+  }
+}
