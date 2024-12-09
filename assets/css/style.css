@@ -14,6 +14,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin: 0;
+    z-index: 9999;
 }
 
 header, a {
@@ -22,6 +23,20 @@ header, a {
 
 h1 {
     padding-left: 20px;
+}
+
+main {
+  padding-top: 60px;
+  margin: 0 10px;
+}
+
+body {
+  background-color: slategray;
+}
+
+body, main {
+width: 100%;
+margin: 0;
 }
 
   
@@ -33,14 +48,15 @@ h1 {
     background-color: #cf9c3f;  
     padding: 10px 20px;
     position: relative;
+    z-index: 2000;
   }
   
-  #nav-menu {
+#nav-menu {
     display: none;  
  }
   
   
-  .nav-menu-plus {
+.nav-menu-plus {
     position: relative;
     font-size: 30px;  
     color: white;
@@ -48,7 +64,7 @@ h1 {
   }
   
   /* Menu styling */
-  #menu {
+#menu {
     display: none;  
     position: absolute;
     top: 100%;  
@@ -58,45 +74,29 @@ h1 {
     padding: 10px 0;
     margin: 0;
     border-radius: 5px;
-    z-index: 1100;
+    z-index: 3000;
   }
   
   /* Shows the menu when checkbox is checked - remember */
-  #nav-menu:checked ~ #menu {
+#nav-menu:checked ~ #menu {
     display: block;
-    z-index: 1100;
   }
   
-  #menu li {
+#menu li {
     padding: 10px 20px;
   }
   
   /*dropdown font*/
-  #menu a {
+#menu a {
     text-decoration: none;
     color: #fefefe;
     display: block;
   }
   
-  #menu a:hover {
+#menu a:hover {
     background-color: #f0f0f0;  
   }
   
-  
-main {
-    padding-top: 60px;
-    margin: 0 10px;
-}
-
-body {
-    background-color: slategray;
-}
-
-body, main {
-  width: 100%;
-  margin: 0;
-}
-
 #hero {
     background: url('../images/1161920_1000_1.jpg') no-repeat center center;
     background-size: cover;
@@ -108,10 +108,13 @@ body, main {
 }
 
 #hero-text {
+    background-color: rgb(66, 66, 194, .6);
     color: white;
     position: absolute;
     bottom: 50px;
-    padding-left: 40px;
+    padding-left: 20px;
+    min-height: 150px;
+    z-index: auto;
 }
 
 #intro-text {
