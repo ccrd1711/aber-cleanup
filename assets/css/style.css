@@ -245,7 +245,29 @@ footer {
     }
 }
 
-@media screen and (min-width: 577px) and (max-width: 768px) {
+@media screen and (min-width: 577px) and (max-width: 768px) /*Tablets*/
+{
+  .upcoming-events {
+    display: grid;
+    gap: 20px;
+  }
 
+  .image-group {
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 10px;
+  }
 
+  .image-group h2 {
+    grid-column: span 3;
+    text-align: center;
+    padding: 10px;
+  }
+
+  #intro-text {
+    padding-top: 10px;
+  }
 }
