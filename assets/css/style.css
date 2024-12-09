@@ -243,6 +243,12 @@ footer {
     #hero {
       width: 100vw;
     }
+
+    /*Image to fill full reg page on mobile*/
+  .reg-page main {
+    background-size: cover;
+    height: 100vh;
+  }
 }
 
 /*Tablets media query*/
@@ -272,6 +278,13 @@ footer {
     padding-top: 10px;
     width: 100%; 
   }
+  
+  /*Image to fill full reg page on Tab*/
+  .reg-page main {
+    background-size: cover;
+    height: 100vh;
+  }
+
 }
 
 /*Larger screens media query*/
