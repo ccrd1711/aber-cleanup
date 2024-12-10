@@ -118,11 +118,12 @@ margin: 0;
   background-color: rgb(66, 66, 194, .6);
   position: absolute;
   bottom: 50px;
-  min-height: 150px;
+  min-height: 200px;
+  margin-left: 50px;
   z-index: auto;
 }
 
-#hero-text h2 {
+#hero-text h3 {
   padding: 20px;
 }
 
@@ -133,6 +134,7 @@ margin: 0;
   background-color: #cf9c3f;
   text-align: center;
   padding: 0 10px;
+  font-size: 30px;
 }
 
 .image-group {
@@ -148,6 +150,8 @@ margin: 0;
   font-weight: 400;
   font-style: normal;
   background-color: #cf9c3f;
+  font-size: 30px;
+  text-align: center;
   }
   
 .image-item img {
@@ -165,7 +169,10 @@ margin: 0;
   }
 
   .upcoming-events h2 {
+    font-size: 30px;
     background-color: #cf9c3f;
+    font-family: "Unna", sans-serif;
+    text-align: center;
   }
   
 .event {
@@ -215,8 +222,9 @@ margin: 0;
 
 .reg-page main {
   background-image: url(../images/bottlebeach.jpeg);
-  padding-bottom: 10px;
   background-position: center;
+  background-size: cover;
+  height: 100vh;
 }
 
 .reg-foot {
@@ -285,6 +293,10 @@ footer {
 
     #hero {
       width: 100vw;
+    }
+
+    #hero-text {
+      margin-right: 50px;
     }
 
     /*Image to fill full reg page on mobile*/
@@ -375,7 +387,7 @@ footer {
 
   #intro-text {
     padding-top: 10px;
-    width: 100%; /*Issue with no margin down right side on header, intro and pics - this is a test */
+    width: 100%; 
   }
 
   .reg-page main {
@@ -385,6 +397,10 @@ footer {
 
   #reg-text {
     color: white; /* When screen made larger, image position changes creating visibility issue */
+  }
+
+  footer.reg-foot #social-networks i {
+    color: white !important;
   }
   
 }
