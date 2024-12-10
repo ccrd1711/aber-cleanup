@@ -253,6 +253,13 @@ footer {
   color: #cf9c3f;
 }
 
+/* Query for phones with low height where footer issue occurs on reg page*/
+@media (max-height: 733px) {
+  .row {
+    padding-top: 30px;
+  }
+}
+
 /* phones/small screens query, images in a column */
 @media screen and (max-width: 576px) {
 header h1 {
