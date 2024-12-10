@@ -79,7 +79,6 @@ margin: 0;
     z-index: 3000;
   }
   
-  /* Shows the menu when checkbox is checked - remember */
 #nav-menu:checked ~ #menu {
     display: block;
   }
@@ -134,7 +133,7 @@ margin: 0;
   background-color: #cf9c3f;
   text-align: center;
   padding: 0 10px;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .image-group {
@@ -152,7 +151,7 @@ margin: 0;
   background-color: #cf9c3f;
   font-size: 30px;
   text-align: center;
-  }
+  } 
   
 .image-item img {
     width: 100%;  
@@ -163,13 +162,13 @@ margin: 0;
 /*Events section*/  
 .upcoming-events {
     gap: 10px;  
-    padding: 10px 10px; /* Gap at sides and spacing on Cleans text from pictures */
+    padding: 10px 10px; 
     background-color: rgb(159, 194, 230);
     margin-left: 0;
   }
 
   .upcoming-events h2 {
-    font-size: 30px;
+    font-size: 25px;
     background-color: #cf9c3f;
     font-family: "Unna", sans-serif;
     text-align: center;
@@ -273,7 +272,7 @@ footer {
 @media screen and (max-width: 576px) {
     header h1 {
       padding-top: 10px;
-      font-size: 30px;
+      font-size: 25px;
     }
 
     .upcoming-events {
@@ -336,7 +335,6 @@ footer {
   .image-group h2 {
     grid-column: span 3;
     text-align: center;
-    padding: 10px;
   }
 
   #intro-text {
@@ -382,8 +380,7 @@ footer {
   .image-group h2 {
     grid-column: span 3;
     text-align: center;
-    padding: 10px;
-  }
+  } 
 
   #intro-text {
     padding-top: 10px;
