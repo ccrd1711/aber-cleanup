@@ -174,8 +174,17 @@ margin: 0;
 }
   
 .event h3 {
-    font-size: 24px;
+  color: white;
+  font-size: 24px;
   }
+
+.event p {
+  color: white;
+}
+
+.event ul {
+  color: white;
+}
   
 .event-date {
     font-size: 18px;
@@ -227,6 +236,7 @@ margin: 0;
   background-color: #cf9c3f;
   color: black;
 }
+
 
 /* Footer on every page */
 footer {
@@ -359,5 +369,9 @@ footer {
   .reg-page main {
     padding-bottom: 10px;
     background-size: cover;
+  }
+
+  #reg-text {
+    color: white; /* When screen made larger, image position changes creating visibility issue */
   }
 }
