@@ -191,8 +191,12 @@ nav ul {
 
 /* About page styling */
 .about-foot {
-  position: absolute;
+  /*position: absolute;*/
   bottom: 0
+}
+
+.container p {
+  font-size: 12px;
 }
 
 /* Registration page styling with bootstrap build */
