@@ -57,20 +57,24 @@ nav {
   top: 100%;
 }
 
+/* Nav menu */
 #menu {
   list-style-type: none;
 }
 
-/* Nav toggle */
-#nav-toggle:checked~nav {
+nav ul {
+  padding-top: 15px;
+}
+
+#nav-menu:checked~nav {
   display: block;
 }
 
-#nav-toggle {
+#nav-menu {
   display: none;
 }
 
-.nav-toggle-label {
+.nav-menu-plus {
   font-size: 2rem;
 }
   
@@ -101,22 +105,13 @@ nav {
   padding: 20px;
 }
 
-#intro-text {
-  font-family: "Unna", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  background-color: #cf9c3f;
-  text-align: center;
-  padding: 0 10px;
-  font-size: 25px;
-}
-
 .image-group {
   display: grid;             
   justify-content: space-between;
   gap: 10px;  
   width: 500px; 
-  grid-template-columns: repeat(3, 1fr);            
+  grid-template-columns: repeat(3, 1fr);   
+  margin-top: 20px;         
   }
 
 .image-group h2 {
@@ -136,10 +131,10 @@ nav {
 
 /*Events section*/  
 .upcoming-events {
-    gap: 10px;  
-    padding: 10px 10px; 
+    padding: 0 10px; 
     background-color: rgb(159, 194, 230);
     margin-left: 0;
+    margin-top: 20px;
   }
 
 .upcoming-events h2 {
@@ -156,31 +151,31 @@ nav {
     border: 1px solid #ddd;
     border-radius: 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+.event-1 {
+  background-image: url('../images/aberpier.jpeg');
+  background-position: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
 }
   
-.event h3 {
+.event h3, .event-1 h3 {
   color: white;
   font-size: 24px;
   }
 
-.event p {
+.event p, .event-1 p {
   color: white;
 }
 
-.event ul {
+.event ul, .event-1 ul {
   color: white;
 }
-  
-.event-date {
-    font-size: 18px;
-    color: #888;
-    margin-bottom: 15px;
-  }
-  
-.event-description {
-    font-size: 16px;
-    color: #333;
-  }
 
 /* About page styling */
 .about-foot {
@@ -223,109 +218,104 @@ nav {
   color: black;
 }
 
+.row {
+  padding-top: 100px;
+}
 
 /* Footer on every page */
 footer {
-    width: 100%;
-    justify-content: center;
+  width: 100%;
+  justify-content: center;
 }
 
 #social-networks {
-    display: flex;
-    padding: 20px 0;
-    justify-content: space-evenly;
-    align-items: center;
-    list-style-type: none;
+  display: flex;
+  padding: 20px 0;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
 }
 
 #social-networks i {
-    font-size: 150%;
-    color: #cf9c3f;
+  font-size: 150%;
+  color: #cf9c3f;
 }
 
 /* phones/small screens query, images in a column */
 @media screen and (max-width: 576px) {
 header h1 {
-      padding-top: 10px;
-      font-size: 25px;
+  padding-top: 10px;
+  font-size: 25px;
     }
 
 .upcoming-events {
-      display: grid;
-      width: 100vw; 
+  display: grid;
+  width: 100vw; 
     }
 
 .image-group {
-      display: grid;
-      width: 100vw;
-      padding: 0 10px;
-      grid-template-columns: 1fr;
+  display: grid;
+  width: 100vw;
+  padding: 0 10px;
+  grid-template-columns: 1fr;
     }
 
-#intro-text {
-    width: 100vw;}
-
 #hero {
-      width: 100vw;
+  width: 100vw;
     }
 
 #hero-text {
-      margin-right: 50px;
+  margin-right: 50px;
     }
 
 /*Image to fill full reg page on mobile*/
 .reg-page main {
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
   }
 
 footer.reg-foot #social-networks i {
-    color: white !important;
+  color: white !important;
   }
 }
 
 /*Tablets media query*/
 @media screen and (min-width: 577px) and (max-width: 768px) 
 {
-  header h1 {
-    padding-top: 10px;
-    font-size: 30px;
+header h1 {
+  padding-top: 10px;
+  font-size: 30px;
   }
 
-  .upcoming-events {
-    display: grid;
-    gap: 20px;
+.upcoming-events {
+  display: grid;
+  gap: 20px;
   }
 
-  .image-group {
-    display: grid;
-    gap: 10px;
-    justify-content: center;
-    width: 100%;
-    grid-template-columns: repeat(3, 1fr); 
-    padding: 0 10px;
+.image-group {
+  display: grid;
+  gap: 10px;
+  justify-content: center;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr); 
+  padding: 0 10px;
   }
 
-  .image-group h2 {
-    grid-column: span 3;
-    text-align: center; 
-  }
-
-  #intro-text {
-    padding-top: 10px;
-    width: 100%; 
+.image-group h2 {
+  grid-column: span 3;
+  text-align: center; 
   }
   
   /*Image to fill full reg page on Tab*/
-  .reg-page main {
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
+.reg-page main {
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
   }
 
-  footer.reg-foot #social-networks i {
-    color: white !important;
+footer.reg-foot #social-networks i {
+  color: white !important;
   }
 
 }
@@ -333,66 +323,61 @@ footer.reg-foot #social-networks i {
 /*Larger screens media query*/
 @media screen and (min-width: 769px) 
 {
-  header h1 {
-    padding-top: 10px;
-    font-size: 30px;
+header h1 {
+  padding-top: 10px;
+  font-size: 30px;
   }
 
-  nav {
-    display: block;
-    position: relative;
-    box-shadow: none;
-    width: fit-content;
-    padding-right: 1rem;
+nav {
+  display: block;
+  position: relative;
+  box-shadow: none;
+  width: fit-content;
+  padding-right: 1rem;
 }
 
 #menu {
-    display: flex;
+  display: flex;
 }
 
 #menu > li {
-    padding-left: 1rem;
+  padding-left: 1rem;
 }
 
-.nav-toggle-label {
-    display: none;
+.nav-menu-plus {
+  display: none;
 }
 
-  .upcoming-events {
-    display: grid;
-    gap: 20px;
+.upcoming-events {
+  display: grid;
+  gap: 20px;
   }
 
-  .image-group {
-    display: grid;
-    gap: 10px;
-    justify-content: center;
-    width: 100%;
-    grid-template-columns: repeat(3, 1fr); 
-    padding: 0 10px;
+.image-group {
+  display: grid;
+  gap: 10px;
+  justify-content: center;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr); 
+  padding: 0 10px;
   }
 
-  .image-group h2 {
-    grid-column: span 3;
-    text-align: center;
+.image-group h2 {
+  grid-column: span 3;
+  text-align: center;
   } 
 
-  #intro-text {
-    padding-top: 10px;
-    width: 100%; 
+.reg-page main {
+  padding-bottom: 10px;
+  background-size: cover;
   }
 
-  .reg-page main {
-    padding-bottom: 10px;
-    background-size: cover;
+#reg-text {
+  color: white; /* When screen made larger, image position changes creating visibility issue */
   }
 
-  #reg-text {
-    color: white; /* When screen made larger, image position changes creating visibility issue */
-  }
-
-  footer.reg-foot #social-networks i {
-    color: white !important;
+footer.reg-foot #social-networks i {
+  color: white !important;
   }
   
 }
