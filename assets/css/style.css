@@ -76,6 +76,7 @@ nav ul {
 
 .nav-menu-plus {
   font-size: 2rem;
+  padding-right: 10px;
 }
   
 #hero {
@@ -141,6 +142,8 @@ nav ul {
     font-size: 25px;
     background-color: #cf9c3f;
     font-family: "Unna", sans-serif;
+    font-style: normal;
+    font-weight: 400;
     text-align: center;
   }
   
@@ -167,14 +170,23 @@ nav ul {
 .event h3, .event-1 h3 {
   color: white;
   font-size: 24px;
+  font-family: "Unna", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   }
 
 .event p, .event-1 p {
   color: white;
+  font-family: "Unna", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .event ul, .event-1 ul {
   color: white;
+  font-family: "Unna", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* About page styling */
