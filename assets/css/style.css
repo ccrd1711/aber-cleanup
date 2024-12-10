@@ -98,6 +98,10 @@ margin: 0;
 #menu a:hover {
     background-color: #f0f0f0;  
   }
+
+.active {
+  border-bottom: 1px solid white;
+}
   
 #hero {
     background: url('../images/beachshot.jpeg') no-repeat center center;
@@ -149,7 +153,7 @@ margin: 0;
   font-weight: 400;
   font-style: normal;
   background-color: #cf9c3f;
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
   } 
   
@@ -334,7 +338,7 @@ footer {
 
   .image-group h2 {
     grid-column: span 3;
-    text-align: center;
+    text-align: center; 
   }
 
   #intro-text {
