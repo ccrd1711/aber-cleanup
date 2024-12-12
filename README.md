@@ -32,12 +32,83 @@ As you may be able to tell by the tone of this introduction so far, it has been 
 
 * Acceptance criteria:
 
-    I want the hero image to be related but directly to actual work being done, image should be of Aber beach in its best way
-    Images of volunteers cleaning up, possibly before and after shots
+    I want the hero image to be related but directly to actual work being done, image should be of Aber beach in its best way. Images of volunteers cleaning up, possibly before and after shots
     Do this in a clean and professional way
 
 * Tasks
 
-    Source images of past clean-ups and cite these in the credits
-    Use own image (potentially) for the hero image as I have one in mind
-    Use either CSS/Bootstrap to achieve layout
+    Source images of past clean-ups and cite these in the credits.
+    Use own image (potentially) for the hero image as I have one in mind.
+    Use either CSS/Bootstrap to achieve layout.
+
+#### 3. As a community member interested in keeping Aberystwyth beaches clean, I want to visit the causes website to learn about upcoming events and volunteer opportunities, so that I can contribute to environmental conservation efforts
+
+* Acceptance Criteria:
+
+    Website has a dedicated banner or page for all upcoming planned cleans.
+    Call to action to 'register' for events unplanned as of yet that would be forthcoming.
+
+* Tasks
+
+    Design with CSS or Bootstrap an area or page with upcoming cleans with locations and times.
+    Potentially add in to the same place, or elsewhere, a list of stuff to bring and stuff that will already be provided by the group leaders.
+    Investigate whether the CTA should be visible in same place on all pages or a different layout.
+
+#### 4. As someone who may not be able to get to every event as I do not live locally, I would like to keep up to date with events that I have missed or others that the cause post about from elsewhere.
+
+* Acceptance criteria
+
+    The homepage will have links to social media where the group regularly update all their followers about cleans and share other content on social media related to their cause.
+    Doesn't take up too much room on the page as to detract from main focus (content and pictures).
+    Has an interactive map for first-time visitors.
+
+* Tasks
+
+    Add social media logos with links in the footer or elsewhere in a minimalist way.
+    Embed Google maps.
+
+#### 5. As someone who is unable to help in a physical manner, I'd like to contribute to the cause through donations
+
+* Acceptance Criteria
+
+    Donation button or other form of contribution (TBC) on the homepage or the register page - unsure if wanted on every page.
+    Clean design.
+
+* Tasks
+
+    Incorporate this button in to the existing design minimally but with enough attention so as it's not easily overlooked.
+
+#### 6. As someone who wants to get involved I'd like to know that the people running the group can be counted on and that the cause is worthwhile from other people in that community, and how much good the cleanups are doing before I commit
+
+* Acceptance Criteria
+
+    Potentially have a testimonials section with 5 (as standard) comments from people who have done the Aber clean, or others.
+    
+* Tasks
+
+    Integrate this either on the homepage or secondary page, potentially scrolling (roulette) so it's not taking up too much space on the page.
+
+## Website Features 
+
+* Responsive design on phones, tablets and large screens. Further media query required for height as well as width., please see 'Bugs'. 
+* Calls to Action on interactive buttons - "Sign Up" & "Donate". 
+* Social Media Integration on every page. 
+* CONSIDER REMOVING THIS: SEO Optimisation.
+* CONSIDER REMOVING THIS: Accessibility. 
+
+## Languages used 
+
+* HTML5
+* CSS3
+
+## External Programs Used 
+
+* [Bootstrap v5.3](https://getbootstrap.com/)
+* [Font Awesome](https://fontawesome.com)
+* [Google Fonts](https://fonts.google.com/)
+* [GitHub](https://github.com)
+
+##Testing Carried Out
+
+* [HTML Validator](https://validator.w3.org/#validate_by_input)
+* [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)

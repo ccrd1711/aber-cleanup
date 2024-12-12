@@ -229,7 +229,16 @@ nav ul {
   color: white;
 }
 
+#donation-email-text {
+  color: white;
+}
+
 #button {
+  background-color: #cf9c3f;
+  color: black;
+}
+
+#button-2 {
   background-color: #cf9c3f;
   color: black;
 }
@@ -398,6 +407,14 @@ nav {
 #reg-text {
   color: white; /* When screen made larger, image position changes creating visibility issue */
   }
+
+#reg-text-email {
+  color: white;
+}
+
+#reg-text-top {
+  color: white;
+}
 
 footer.reg-foot #social-networks i {
   color: white !important;
