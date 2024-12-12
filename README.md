@@ -108,7 +108,27 @@ As you may be able to tell by the tone of this introduction so far, it has been 
 * [Google Fonts](https://fonts.google.com/)
 * [GitHub](https://github.com)
 
-##Testing Carried Out
+## Testing Carried Out
 
 * [HTML Validator](https://validator.w3.org/#validate_by_input)
+
+![HTML Validation](/assets/images/htmlvalidation.png)
+
+*Important to note: I got full validation on index.html and register html. It initally picked up a couple of duplicate IDs I mistakenly made, these have been rectified.
+
+On about.html however I have 3 warnings: 
+
+* One is for a UL element being the child of another UL. I have attempted to rectify this but I'm very happy with the current layout and any fixes I try at this late stage of the project are making it unappealing for the viewer. 
+* The second is for not having a heading on the map. I personally think it is unnecessary as it's clearly focused on the area around Aberystwyth where the charity work takes place. Adding a hidden heading in here creates more unnecessary code.
+* The third is because the validator is not expecting a % icon in the width class on the map. However it's allowing the map to fit the page responsively as it is so I'm leaving it as it is. 
+
+
+
+
 * [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+
+![CSS Validation](/assets/images/cssvalidation.png)
+
+* Testing conducted on multiple browsers, devices and OS'.
+* iPhones, Macbooks, Windows laptops, Android tablets, and Android phones all running site responsively for the most part (see Bugs section). Tested on Safari, Edge and Chrome browsers. 
+* Navigation buttons working including secondary hyperlinked button to 'Donations' (takes you to support us) in the events section, social media links working, and calls to fill in the fields on the CTA forms working. 

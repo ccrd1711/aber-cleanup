@@ -102,8 +102,12 @@ nav ul {
   z-index: auto;
 }
 
-#hero-text h3 {
+#hero-text h2 {
   padding: 20px;
+}
+
+#hero-text h3 {
+  padding: 10px;
 }
 
 .image-group {
