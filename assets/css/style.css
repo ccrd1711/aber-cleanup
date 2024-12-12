@@ -79,6 +79,8 @@ nav ul {
   padding-right: 10px;
 }
   
+/*Hero section */
+
 #hero {
     background: url('../images/beachshot.jpeg') no-repeat center center;
     background-size: cover;
@@ -129,36 +131,35 @@ nav ul {
   } 
   
 .image-item img {
-    width: 100%;  
-    max-width: 750px;  
-    min-height: 100%;
+  width: 100%;  
+  max-width: 750px;  
+  min-height: 100%;
   }
 
 /*Events section*/  
 .upcoming-events {
-    padding: 0 10px; 
-    background-color: rgb(159, 194, 230);
-    margin-left: 0;
-    margin-top: 20px;
+  padding: 0 10px; 
+  background-color: rgb(159, 194, 230);
+  margin-left: 0;
+  margin-top: 20px;
   }
 
 .upcoming-events h2 {
-    font-size: 25px;
-    background-color: #cf9c3f;
-    font-family: "Unna", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    text-align: center;
+  font-size: 25px;
+  background-color: #cf9c3f;
+  font-family: "Unna", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
   }
   
 .event {
-    background-image: url('../images/aberpier.jpeg');
-    background-position: center;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-top: 10px;
+  background-image: url('../images/aberpier.jpeg');
+  background-position: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 0;
+  margin-top: 10px;
 }
 
 .event-1 {
@@ -167,7 +168,6 @@ nav ul {
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 0;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
 }
   
@@ -195,7 +195,6 @@ nav ul {
 
 /* About page styling */
 .about-foot {
-  /*position: absolute;*/
   bottom: 0
 }
 

@@ -107,6 +107,7 @@ As you may be able to tell by the tone of this introduction so far, it has been 
 * [Font Awesome](https://fontawesome.com)
 * [Google Fonts](https://fonts.google.com/)
 * [GitHub](https://github.com)
+* [Image Color Picker](https://imagecolorpicker.com/)
 
 ## Testing Carried Out
 
@@ -132,3 +133,50 @@ On about.html however I have 3 warnings:
 * Testing conducted on multiple browsers, devices and OS'.
 * iPhones, Macbooks, Windows laptops, Android tablets, and Android phones all running site responsively for the most part (see Bugs section). Tested on Safari, Edge and Chrome browsers. 
 * Navigation buttons working including secondary hyperlinked button to 'Donations' (takes you to support us) in the events section, social media links working, and calls to fill in the fields on the CTA forms working. 
+
+## Known Bugs
+
+* There is currently, as far as I'm aware, only one true bug on the site. Nearing the end of my coding whilst I was creating media queries for responsiveness, there was a bug on specific mobiles (with smaller-in-height screens) that pushed the footer icons up in to the area where the donate button is and it overlapped. There is a gap above the sign up form on other media queries, which allows you to see the background more before entering data in the form. To overcome this on mobile I reduced that gap to push everything up and keep the footer in place. All devices that had the issue (iPhone 12 and Samsung S21) have now no longer got this issue. **However** through my testing by sending the website to family and friends, one device - a Samsung S10 - still does this. The media query should include that devices specs so I have not been able to overcome this. 
+
+## Other Bugs noted that were fixed 
+
+* One of the stock images I used was smaller than the others so it didn't accommodate the larger screens as well during responsive tests. The fix was adding a min-height of 100% so it filled it's container and looked uniform.
+
+* I noticed very late on in the project that I had applied my nav bar almost in reverse. Instead of styling it as a nav bar with menu icons, but to then be a dropdown on smaller screen sizes, I created it with an icon for all screens. I tried a few fixes to 'undo' and just bring it back to a standard menu and re-style from there but I wasn't having any luck. Due to the time pressure I also didn't note any attempted coding attempts at this time. I then remembered that during the 'Love Running' challenge we had to follow, that's where that idea of the nav icon was first taught, so I used that code as a starting point/template to build mine from scratch and get it working. This will be noted in 'Acknowledgements'. 
+
+* Further to this, when I had got my navbar to what I wanted it to be it started to mess with my image on 'register.html' and push it down, likely to do with the styling I had in place before hand. Changing this from position:fixed to position:relative fixed this issue. 
+
+* There were other little issues along my journey (mostly with CSS in the design and positioning areas) creating this website but most fixes were completed by playing around with the CSS syntax or a Google search. For example at one point early on in the journey I couldn't quite get why an area on my home page wasn't moving but it was because I was using 'padding' to move something outside of an element rather than 'margin'. 
+
+## Acknowledgements 
+
+* All images in the project are my own
+* [Google](https://www.google.com)
+* [ChatGPT](https://chatgpt.com/)
+* [Love Running project - my version](https://github.com/ccrd1711/love-sprinting)
+* [Code Institute 5-Step Coding Challenge](https://learn.codeinstitute.net/ci_program/fivestepcodingchallenge)
+* My friends and family who continuously tested bits of the website for me at various stages of development. 
+
+## Deployment and Accessing Code Workspace 
+
+* [Go to the GitHub repository](https://github.com/ccrd1711/aber-cleanup) and click on the Github Logo with 'Open' to access the workspace. 
+
+* [Go to the GitHub repository](https://github.com/ccrd1711/aber-cleanup) and click on 'Deployments' on the right hand side, then click the site URL which is placed under the last deployment timestamp.
+
+## My Own Deployment
+
+* I deployed my site quite early in the development process as I was aware from the course teaching that the preview site doesn't give a true reflection of the finished project, or at least it's liable to errors or displaying differently. 
+
+* To deploy my site initially, here were the steps taken:
+
+   I went to [my repository homepage](https://github.com/ccrd1711/aber-cleanup).
+
+   I clicked on 'Settings' along the top toolbar within the page, then I clicked on 'Pages'.
+
+   In 'Branch', I clicked the dropdown and changed it from 'None' to 'Main'. In the new box that appeared I ensured that the folder was set to '/(root)', and then I pressed 'Save'.
+
+   I then pressed '<> Code' in the top left to bring me back to the repo homepage and waited for 2-3 minutes while the site deployed.
+
+   I refreshed the page. If the site has deployed properly, a section appears called 'Deployments' down the right hand side (referenced above under 'Deployment and Accessing Code Workspace'). Within this section I seen my deployed site's URL. 
+
+   Note: It was in here I could obtain the link to the site to also share with friends and family for testing at various stages along the project. 
