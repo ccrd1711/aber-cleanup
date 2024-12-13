@@ -12,6 +12,8 @@ My thought process progressed to: "Is the reasoning behind this purely just a ti
 
 As you may be able to tell by the tone of this introduction so far, it has been written post-project. At the time of currently writing this ReadMe, all but two images on the website are my own. This section will be updated if I can source those myself before submission. 
 
+UPDATE: All images on the site are now my own. 
+
 ## User Experience
 
 ### User Stories (Also documented within 'Projects' tab before Project inception)
@@ -108,13 +110,27 @@ As you may be able to tell by the tone of this introduction so far, it has been 
 
 * I had used color picker and based the colors off of what was given to me in the grid, however in the end I just chose what I thought was best and visually appealing. 
 
+## Analysing the User Stories 
+
+User Story 1: The website is responsive (please see Bugs section for any anomalies) across all screen sizes, and is accessible. CSS and Bootstrap both integrated into website build.
+
+User Story 2: All images in the site are my own but I moved away from sourcing past cleans as it proved difficult. Stock images not preferable. I moved more towards the narrative angle as mentioned above. This did initially hamper performance but images were resized multiple times to retain quality whilst reducing the image size. 
+
+User Story 3: I decided to go with the CTA to be just in one place as I didn't think it would be very design friendly. There's a hyperlink within the events section that will also take you to the donation section without scrolling back up. Also includes the content that I wanted.
+
+User Story 4: Embedded map that can be opened in order to help with navigation and all pages have social media links. 
+
+User Story 5: I think it's very important to be aware of all individuals when building these sites in the actual coding, but also in the subject matter. So I made sure to highlight that the charity still offers other ways of giving support if you're unable to help due to circumstances like disabilities. 
+
+User Story 6: I decided against this in the end as I wanted the content on the About page more than the reviews. This would merely have been another way to show that I can code another element in to the site rather than being design friendly. The site conveys the cause and what happens on the day very well in my opinion.
+
 ## Website Features 
 
 * Responsive design on phones, tablets and large screens. Further media query required for height as well as width., please see 'Bugs'. 
 * Calls to Action on interactive buttons - "Sign Up" & "Donate". 
 * Social Media Integration on every page. 
-* CONSIDER REMOVING THIS: SEO Optimisation.
-* CONSIDER REMOVING THIS: Accessibility. 
+* SEO Optimisation.
+* Accessibility. 
 
 ## Languages used 
 
@@ -155,6 +171,16 @@ On about.html however I have 3 warnings:
 * iPhones, Macbooks, Windows laptops, Android tablets, and Android phones all running site responsively for the most part (see Bugs section). Tested on Safari, Edge and Chrome browsers. 
 * Navigation buttons working including secondary hyperlinked button to 'Donations' (takes you to support us) in the events section, social media links working, and calls to fill in the fields on the CTA forms working. 
 
+## Lighthouse 
+
+![Lighthouse PC result](/assets/images/lighthousepc.jpg)
+
+* This is my Lighthouse score on PC view
+
+![Lighthouse Mobile result](/assets/images/lighthousemobile.jpg)
+
+* This is my Lighthouse score on mobile. The main reasons for this is due to the image but I cannot render these images down much more without suffering on the desktop view too much. The page and image still loads very quickly on all the devices I tested on. 
+
 ## Known Bugs
 
 * There is currently, as far as I'm aware, only one true bug on the site. Nearing the end of my coding whilst I was creating media queries for responsiveness, there was a bug on specific mobiles (with smaller-in-height screens) that pushed the footer icons up in to the area where the donate button is and it overlapped. There is a gap above the sign up form on other media queries, which allows you to see the background more before entering data in the form. To overcome this on mobile I reduced that gap to push everything up and keep the footer in place. All devices that had the issue (iPhone 12 and Samsung S21) have now no longer got this issue. **However** through my testing by sending the website to family and friends, one device - a Samsung S10 - still does this. The media query should include that devices specs so I have not been able to overcome this. 
@@ -169,13 +195,14 @@ On about.html however I have 3 warnings:
 
 * There were other little issues along my journey (mostly with CSS in the design and positioning areas) creating this website but most fixes were completed by playing around with the CSS syntax or a Google search. For example at one point early on in the journey I couldn't quite get why an area on my home page wasn't moving but it was because I was using 'padding' to move something outside of an element rather than 'margin'. 
 
-## Acknowledgements 
+## Content and Acknowledgements 
 
-* All images in the project are my own
-* [Google](https://www.google.com)
+* All content was written by the developer.
+* All images in the project are my own.
+* [Google](https://www.google.com) 
 * [ChatGPT](https://chatgpt.com/)
-* [Love Running project - my version](https://github.com/ccrd1711/love-sprinting) This provided me with valuable reference points in re-starting my nav bar after I realised the large screen issue mentioned previously, and gave me inspiration (and again a design starting point) with the translucent text on the hero image, also in Love Running.
-* [Code Institute 5-Step Coding Challenge](https://learn.codeinstitute.net/ci_program/fivestepcodingchallenge)
+* [Love Running project - my version](https://github.com/ccrd1711/love-sprinting) This provided me with valuable reference points in re-starting my nav bar after I realised the large screen issue mentioned previously, and gave me inspiration (and again a design starting point) with the translucent text section on the hero image, also in the Love Running modules.
+* [Code Institute 5-Step Coding Challenge](https://learn.codeinstitute.net/ci_program/fivestepcodingchallenge) This provided me with a reminder and reference point in embedding Google Maps into the website.
 * My friends and family who continuously tested bits of the website for me at various stages of development. 
 
 ## Deployment and Accessing Code Workspace 
