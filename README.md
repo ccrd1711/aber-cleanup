@@ -174,7 +174,7 @@ On about.html however I have 3 warnings:
 * All images in the project are my own
 * [Google](https://www.google.com)
 * [ChatGPT](https://chatgpt.com/)
-* [Love Running project - my version](https://github.com/ccrd1711/love-sprinting)
+* [Love Running project - my version](https://github.com/ccrd1711/love-sprinting) This provided me with valuable reference points in re-starting my nav bar after I realised the large screen issue mentioned previously, and gave me inspiration (and again a design starting point) with the translucent text on the hero image, also in Love Running.
 * [Code Institute 5-Step Coding Challenge](https://learn.codeinstitute.net/ci_program/fivestepcodingchallenge)
 * My friends and family who continuously tested bits of the website for me at various stages of development. 
 
