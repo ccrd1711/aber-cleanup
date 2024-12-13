@@ -136,7 +136,7 @@ As you may be able to tell by the tone of this introduction so far, it has been 
 
 ![HTML Validation](/assets/images/htmlvalidation.png)
 
-*Important to note: I got full validation on index.html and register html. It initally picked up a couple of duplicate IDs I mistakenly made, these have been rectified.
+* Important to note: I got full validation on index.html and register html. It initally picked up a couple of duplicate IDs I mistakenly made, these have been rectified.
 
 On about.html however I have 3 warnings: 
 
