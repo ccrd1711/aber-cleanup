@@ -82,7 +82,7 @@ nav ul {
 /*Hero section */
 
 #hero {
-    background: url('../images/beachshot.webp') no-repeat center center;
+    background: url('../images/beachshotfinal.webp') no-repeat center center;
     background-size: cover;
     width: 100vw;
     height: 500px;
@@ -156,7 +156,7 @@ nav ul {
   }
   
 .event {
-  background-image: url('../images/shellcalendar.jpg');
+  background-image: url('../images/shellcalender.webp');
   background-position: center;
   background-size: cover;
   padding: 20px;
@@ -165,17 +165,8 @@ nav ul {
   margin-top: 10px;
 }
 
-.event-1 {
-  background-image: url('../images/shellcalendar.jpg');
-  background-position: center;
-  background-size: cover;
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 0;
-  margin-top: 20px;
-}
   
-.event h3, .event-1 h3 {
+.event h3 {
   color: white;
   font-size: 24px;
   font-family: "Unna", sans-serif;
@@ -183,14 +174,14 @@ nav ul {
   font-style: normal;
   }
 
-.event p, .event-1 p {
+.event p {
   color: white;
   font-family: "Unna", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.event ul, .event-1 ul {
+.event ul {
   color: white;
   font-family: "Unna", sans-serif;
   font-weight: 400;
