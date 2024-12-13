@@ -118,7 +118,7 @@ nav ul {
   gap: 10px;  
   width: 500px; 
   grid-template-columns: repeat(3, 1fr);   
-  margin-top: 20px;         
+  margin-top: 20px;        
   }
 
 .image-group h2 {
@@ -128,12 +128,14 @@ nav ul {
   background-color: #cf9c3f;
   font-size: 25px;
   text-align: center;
+  border: 1px solid #ddd;
   } 
   
 .image-item img {
   width: 100%;  
   max-width: 750px;  
   min-height: 100%;
+  border: 1px solid #ddd;
   }
 
 /*Events section*/  
