@@ -82,7 +82,7 @@ nav ul {
 /*Hero section */
 
 #hero {
-    background: url('../images/beachshot.jpeg') no-repeat center center;
+    background: url('../images/beachshot.webp') no-repeat center center;
     background-size: cover;
     width: 100vw;
     height: 500px;
@@ -154,8 +154,9 @@ nav ul {
   }
   
 .event {
-  background-image: url('../images/aberpier.jpeg');
+  background-image: url('../images/IMG_4769\ \(1\).jpeg');
   background-position: center;
+  background-size: cover;
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 0;
@@ -163,8 +164,9 @@ nav ul {
 }
 
 .event-1 {
-  background-image: url('../images/aberpier.jpeg');
+  background-image: url('../images/IMG_4769\ \(1\).jpeg');
   background-position: center;
+  background-size: cover;
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 0;
@@ -209,7 +211,7 @@ nav ul {
 }
 
 .reg-page main {
-  background-image: url(../images/bottlebeach.jpeg);
+  background-image: url(../images/bottlebeach.webp);
   background-position: center;
   background-size: cover;
   height: 100vh;
