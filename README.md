@@ -88,6 +88,26 @@ As you may be able to tell by the tone of this introduction so far, it has been 
 
     Integrate this either on the homepage or secondary page, potentially scrolling (roulette) so it's not taking up too much space on the page.
 
+## Design Planning on Balsamiq
+
+![Landing Page Wireframe](/assets/images/cleanuplandingpage.jpg) ![About Page Wireframe](/assets/images/aboutpage.jpg) ![Register Page Wireframe](/assets/images/registerpage.jpg)
+
+## Notes on design changes, and final design
+
+* The images you see in the above Wireframes are for each page of the website. Images 1.1, 1.2 and 1.3 for the Landing/Home page, running from big screens to mobile left to right. It's the same pattern below that for the About page and the Register/Support page. 
+
+* On the Home page you'll notice I had two bars below the Hero image. At that point the plan was to have one bar for an introductive text (which I moved to within the Hero image itself), and one as like a heading for the images. This was done for two reasons: 
+
+    1) I felt like it was taking up unnecessary room on the page, and taking influence from the styling on the 'Love Running' project I felt like this was more impactful and just better design.
+    
+    2) I felt that an overarching title telling people visiting the site that the next thing they would see is some images, was needless. I wanted it to flow better than that and I feel like the finished product is better than the plan on Balsamiq. 
+
+* I wanted there to be some form of 'narrative' on the first page which I think looks good with the 3 images I took. It shows the act of finding rubbish, collecting it, and then showing a sample of a clean beach. Luckily when I went to take my photos a dog had just run by so I got the footprint in there as well to emphasise the nature impact. 
+
+* On the same day I took my photos, someone had left a beer bottle in the sand. The registration page features this image now, symbolising a "message in a bottle." This metaphor reflects the outreach and community building aspects of the beach clean initiative, where each registration or donation is like sending a message of hope and commitment to the cause. 
+
+* I had used color picker and based the colors off of what was given to me in the grid, however in the end I just chose what I thought was best and visually appealing. 
+
 ## Website Features 
 
 * Responsive design on phones, tablets and large screens. Further media query required for height as well as width., please see 'Bugs'. 
@@ -108,6 +128,7 @@ As you may be able to tell by the tone of this introduction so far, it has been 
 * [Google Fonts](https://fonts.google.com/)
 * [GitHub](https://github.com)
 * [Image Color Picker](https://imagecolorpicker.com/)
+* [Balsamiq](https://balsamiq.com)
 
 ## Testing Carried Out
 
