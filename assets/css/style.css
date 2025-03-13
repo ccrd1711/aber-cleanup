@@ -8,7 +8,7 @@
 }
 
 header {
-    background-color: #cf9c3f;
+    background-color: #ffa90a;
     position: relative;
     width: 100%;
     min-height: 50px;
@@ -19,7 +19,7 @@ header {
 }
 
 header, a {
-    color: rgb(76, 121, 194);
+    color: #032a68;
 }
 
 h1 {
@@ -48,7 +48,7 @@ margin: 0;
 /* Navbar styling */
 nav {
   position: absolute;
-  background-color: #cf9c3f;
+  background-color: #ffa90a;
   width: 100%;
   left: 0;
   padding: 0 1rem;
@@ -124,8 +124,8 @@ nav ul {
 .image-group h2 {
   font-family: "Unna", sans-serif;
   font-weight: 400;
-  font-style: normal;
-  background-color: #cf9c3f;
+  color: #032a68;
+  background-color: #ffa90a;
   font-size: 25px;
   text-align: center;
   border: 1px solid #ddd;
@@ -148,7 +148,8 @@ nav ul {
 
 .upcoming-events h2 {
   font-size: 25px;
-  background-color: #cf9c3f;
+  color: #032a68;
+  background-color: #ffa90a;
   font-family: "Unna", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -232,12 +233,12 @@ nav ul {
 }
 
 #button {
-  background-color: #cf9c3f;
+  background-color: #ffa90a;
   color: black;
 }
 
 #button-2 {
-  background-color: #cf9c3f;
+  background-color: #ffa90a;
   color: black;
 }
 
