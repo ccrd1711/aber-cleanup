@@ -94,7 +94,6 @@ nav ul {
 #hero-text {
   font-family: "Unna", sans-serif;
   font-weight: 400;
-  font-style: normal;
   color: white;
   background-color: rgb(66, 66, 194, .6);
   position: absolute;
@@ -136,13 +135,12 @@ nav ul {
   width: 100%;  
   max-width: 750px;  
   min-height: 100%;
-  border: 1px solid #ddd;
+  border: 2px solid #ddd;
   }
 
 /*Events section*/  
 .upcoming-events {
-  padding: 0 10px; 
-  background-color: rgb(159, 194, 230);
+  padding: 0 20px; 
   margin-left: 0;
   margin-top: 20px;
   }
@@ -156,6 +154,7 @@ nav ul {
   font-weight: 400;
   text-align: center;
   padding: 10px;
+  border: 2px solid #ddd;
   }
   
 .event {
@@ -164,7 +163,7 @@ nav ul {
   background-position: center;
   background-size: cover;
   padding: 20px;
-  border: 1px solid #ddd;
+  border: 2px solid #ddd;
   border-radius: 0;
   /* margin-top: 10px; needed ? */
 }
@@ -411,10 +410,6 @@ nav {
 .reg-page main {
   padding-bottom: 10px;
   background-size: cover;
-  }
-
-#reg-text {
-  color: white; /* When screen made larger, image position changes creating visibility issue */
   }
 
 #reg-text-email {
