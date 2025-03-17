@@ -222,6 +222,10 @@ nav ul {
   height: 100vh;
 }
 
+#reg-text-top {
+  color: white;
+}
+
 .reg-foot {
   position: absolute;
   /* bottom: 0; - NEEDED?   */
@@ -319,16 +323,6 @@ header h1 {
   margin-right: 50px;
     }
 
-/*Image to fill full reg page on mobile*/
-.reg-page main {
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-  }
-
-footer.reg-foot #social-networks i {
-  color: white !important;
-  }
 }
 
 /*Tablets media query*/
@@ -363,10 +357,6 @@ header h1 {
   background-position: center;
   background-size: cover;
   height: 100vh;
-  }
-
-footer.reg-foot #social-networks i {
-  color: white !important;
   }
 
 }
@@ -428,10 +418,6 @@ nav {
   }
 
 #reg-text-email {
-  color: white;
-}
-
-#reg-text-top {
   color: white;
 }
 
