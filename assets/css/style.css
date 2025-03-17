@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 header {
     background-color: #ffa90a;
     position: relative;
@@ -22,6 +26,14 @@ header, a {
     color: #032a68;
 }
 
+.no-underline {
+  text-decoration: none;
+}
+
+.bold-heading {
+  font-weight: 900;
+}
+
 h1 {
   font-family: "Poiret One", sans-serif;
   font-size: 6rem;
@@ -33,10 +45,11 @@ h1 {
 main {
   padding-top: 0;
   margin: 0 10px;
+  flex: 1;
 }
 
 body {
-  background-color: rgb(159, 194, 230);
+  background-color: rgb(76, 139, 202);
 }
 
 body, main {
@@ -60,6 +73,11 @@ nav {
 /* Nav menu */
 #menu {
   list-style-type: none;
+  font-size: 24px;
+}
+
+#menu li {
+  font-size: 20px;
 }
 
 nav ul {
@@ -158,14 +176,13 @@ nav ul {
   }
   
 .event {
-  color: #032a68;
-  background-color: #ffa90a;
-  background-position: center;
+  background: url(../images/january-bg.jpg);
+  background-position: top right;
   background-size: cover;
+  background-repeat: no-repeat;
   padding: 20px;
   border: 2px solid #ddd;
   border-radius: 0;
-  /* margin-top: 10px; needed ? */
 }
 
   
@@ -190,17 +207,24 @@ nav ul {
 
 /* About page styling */
 .about-foot {
-  bottom: 0
+  margin-top: 0;
+}
+
+.about-bground {
+  background-color: rgb(76, 139, 202);
 }
 
 .about-container {
+  color: white;
   margin-top: 40px;
-  width:90%;
-  padding-left: 50px;
+  width: 95%;
+  padding-left: 30px;
 }
 
-#map-wrapper {
+#map-wrapper iframe {
   padding-top: 20px;
+  width: 100%;
+  height: 400px;
 }
 
 .container p {
@@ -226,9 +250,10 @@ nav ul {
 }
 
 .reg-foot {
-  position: absolute;
-  /* bottom: 0; - NEEDED?   */
+  position: bottom;
+  bottom: 0; 
   background-color: #ffa90a;
+  margin-top: 0;
 }
 
 .row {
@@ -239,7 +264,7 @@ nav ul {
 }
 
 #forms-section {
-  padding-top: 40px;
+  padding-top: 70px;
   opacity: 0.9;
 }
 
@@ -272,7 +297,12 @@ nav ul {
 /* Footer on every page */
 footer {
   width: 100%;
-  justify-content: center;
+  background-color: #ffa90a;
+  margin-top: 30px;
+  min-height: 20px;
+  position: relative;
+  bottom: 0;    
+  left: 0;
 }
 
 #social-networks {
@@ -320,8 +350,19 @@ header h1 {
 
 #hero-text {
   margin-right: 50px;
-    }
+  }
 
+.row {
+  padding-top: 25px;
+}
+
+#button {
+  margin-bottom: 45px;
+  }
+
+#button-2 {
+  margin-bottom: 35px;
+  }
 }
 
 /*Tablets media query*/
