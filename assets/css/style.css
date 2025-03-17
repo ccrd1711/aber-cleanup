@@ -196,6 +196,12 @@ nav ul {
 
 .about-container {
   margin-top: 50px;
+  width:90%;
+  padding-left: 50px;
+}
+
+#map-wrapper {
+  padding-top: 20px;
 }
 
 .container p {
