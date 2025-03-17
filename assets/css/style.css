@@ -195,7 +195,7 @@ nav ul {
 }
 
 .about-container {
-  margin-top: 50px;
+  margin-top: 40px;
   width:90%;
   padding-left: 50px;
 }
@@ -218,13 +218,26 @@ nav ul {
   background-image: url(../images/bottlebeach.webp);
   background-position: center;
   background-size: cover;
+  width: 100%;
   height: 100vh;
 }
 
 .reg-foot {
   position: absolute;
-  bottom: 0;
+  /* bottom: 0; - NEEDED?   */
   background-color: #ffa90a;
+}
+
+.row {
+  background-color: #032a68;
+  min-height: 400px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+#forms-section {
+  padding-top: 40px;
+  opacity: 0.9;
 }
 
 #forms-section h2 {
@@ -251,10 +264,6 @@ nav ul {
 #button-2 {
   background-color: #ffa90a;
   color: black;
-}
-
-.row {
-  padding-top: 100px;
 }
 
 /* Footer on every page */
