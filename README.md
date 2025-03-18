@@ -10,7 +10,7 @@
 
 * [User Experience and Stories](#user-experience)
 
-* [Testing](#testing)
+* [Manual Testing](#manual-testing)
 
 * [Design](#design)
 
@@ -114,7 +114,7 @@ My thought process progressed to: "Is the reasoning behind this purely just a ti
 
     Integrate this either on the homepage or secondary page, potentially scrolling (roulette) so it's not taking up too much space on the page.
 
-# Testing 
+# Manual Testing 
 
 ## Analysing the User Stories 
 
@@ -130,11 +130,26 @@ User Story 5: I think it's very important to be aware of all individuals when bu
 
 User Story 6: I decided against this in the end as I wanted the content on the About page more than the reviews. This would merely have been another way to show that I can code another element in to the site rather than being design friendly. The site conveys the cause and what happens on the day very well in my opinion.
 
+# Automated Testing 
+
+## Validators 
+
+[W3C](https://validator.w3.org/) was used to validate the three HTML files and the CSS file. 
+
+* All index.html, about.html & register.html passed with no errors found. 
+
+* CSS file style.css passed with no errors found. 
+
+
 # Design
 
 ## Wireframes
 
 ![Landing Page Wireframe](/assets/images/cleanuplandingpage.jpg) ![About Page Wireframe](/assets/images/aboutpage.jpg) ![Register Page Wireframe](/assets/images/registerpage.jpg)
+
+## Contrast Checker 
+
+![White on Blue Contrast Pass](/assets/images/contrast-checker.png) ![Blue on Orange Contrast Pass](/assets/images/contrast-checker2.png)
 
 ## Notes on design changes, and final design
 
@@ -191,10 +206,6 @@ User Story 6: I decided against this in the end as I wanted the content on the A
 * There is currently, as far as I'm aware, only one true bug on the site. Nearing the end of my coding whilst I was creating media queries for responsiveness, there was a bug on specific mobiles (with smaller-in-height screens) that pushed the footer icons up in to the area where the donate button is and it overlapped. There is a gap above the sign up form on other media queries, which allows you to see the background more before entering data in the form. To overcome this on mobile I reduced that gap to push everything up and keep the footer in place. All devices that had the issue (iPhone 12 and Samsung S21) have now no longer got this issue. **However** through my testing by sending the website to family and friends, one device - a Samsung S10 - still does this. The media query should include that devices specs so I have not been able to overcome this. 
 
 ## Other Bugs noted that were fixed 
-
-???? Read this 
-
-* One of the stock images I used was smaller than the others so it didn't accommodate the larger screens as well during responsive tests. The fix was adding a min-height of 100% so it filled it's container and looked uniform.
 
 * I noticed very late on in the project that I had applied my nav bar almost in reverse. Instead of styling it as a nav bar with menu icons, but to then be a dropdown on smaller screen sizes, I created it with an icon for all screens. I tried a few fixes to 'undo' and just bring it back to a standard menu and re-style from there but I wasn't having any luck. Due to the time pressure I also didn't note any attempted coding attempts at this time. I then remembered that during the 'Love Running' challenge we had to follow, that's where that idea of the nav icon was first taught, so I used that code as a starting point/template to build mine from scratch and get it working. This will be noted in 'Acknowledgements'. 
 
