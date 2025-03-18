@@ -1,6 +1,34 @@
 # The Aberystwyth Beach Cleanup Website
 
+![Am I responsive screenshot](/assets/images/amiresponsive-beach.png)
+
 [Visit the live website here](https://ccrd1711.github.io/aber-cleanup/index.html)
+
+# Contents
+
+* [Introduction](#introduction)
+
+* [User Experience and Stories](#user-experience)
+
+* [Testing](#testing)
+
+* [Design](#design)
+
+* [Wireframes](#wireframes)
+
+* [Features](#website-features)
+
+* [Languages](#languages-used)
+
+* [External programs used](#external-programs-used)
+
+* [Bugs](#known-bugs)
+
+* [Acknowledgements](#content-and-acknowledgements)
+
+* [Deployment](#deployment-and-accessing-code-workspace)
+
+## Introduction
 
 With this website, I wanted to create a simple and appealing web-based introduction to a technically 'fake' charity. 
 The 'charity', "Aberystwyth Beach Cleanup Charity", is based off of real-life activity that does happen here in mid-Wales and obviously world wide.
@@ -10,13 +38,9 @@ My thought process going into this project was that I must try and think of some
 
 My thought process progressed to: "Is the reasoning behind this purely just a time or motivation issue? Or could it be linked to something a bit deeper?" So, I thought, let's create this charity narrative for this - a charity always needs both more hands and finances to be able to propel the work. This gave me a sufficient basis for one or multiple CTA's, and also allowed me to be a bit more personal in my appearance of the site as I could source my own images. 
 
-As you may be able to tell by the tone of this introduction so far, it has been written post-project. At the time of currently writing this ReadMe, all but two images on the website are my own. This section will be updated if I can source those myself before submission. 
+# User Experience
 
-UPDATE: All images on the site are now my own. 
-
-## User Experience
-
-### User Stories (Also documented within 'Projects' tab before Project inception)
+## User Stories (Also documented within 'Projects' tab before Project inception)
 
 #### 1. As a visitor to the website, I want to easily navigate through information about the cause's mission, upcoming clean-up events, and volunteer sign-up options, so that I can get involved and support the cause effectively.
 
@@ -90,7 +114,25 @@ UPDATE: All images on the site are now my own.
 
     Integrate this either on the homepage or secondary page, potentially scrolling (roulette) so it's not taking up too much space on the page.
 
-## Design Planning on Balsamiq
+# Testing 
+
+## Analysing the User Stories 
+
+User Story 1: The website is responsive (please see Bugs section for any anomalies) across all screen sizes, and is accessible. CSS and Bootstrap both integrated into website build.
+
+User Story 2: All images in the site are my own but I moved away from sourcing past cleans as it proved difficult. Stock images not preferable. I moved more towards the narrative angle as mentioned above. This did initially hamper performance but images were resized multiple times to retain quality whilst reducing the image size. 
+
+User Story 3: I decided to go with the CTA to be just in one place as I didn't think it would be very design friendly. There's a hyperlink within the events section that will also take you to the donation section without scrolling back up. Also includes the content that I wanted.
+
+User Story 4: Embedded map that can be opened in order to help with navigation and all pages have social media links. 
+
+User Story 5: I think it's very important to be aware of all individuals when building these sites in the actual coding, but also in the subject matter. So I made sure to highlight that the charity still offers other ways of giving support if you're unable to help due to circumstances like disabilities. 
+
+User Story 6: I decided against this in the end as I wanted the content on the About page more than the reviews. This would merely have been another way to show that I can code another element in to the site rather than being design friendly. The site conveys the cause and what happens on the day very well in my opinion.
+
+# Design
+
+## Wireframes
 
 ![Landing Page Wireframe](/assets/images/cleanuplandingpage.jpg) ![About Page Wireframe](/assets/images/aboutpage.jpg) ![Register Page Wireframe](/assets/images/registerpage.jpg)
 
@@ -109,20 +151,6 @@ UPDATE: All images on the site are now my own.
 * On the same day I took my photos, someone had left a beer bottle in the sand. The registration page features this image now, symbolising a "message in a bottle." This metaphor reflects the outreach and community building aspects of the beach clean initiative, where each registration or donation is like sending a message of hope and commitment to the cause. 
 
 * I had used color picker and based the colors off of what was given to me in the grid, however in the end I just chose what I thought was best and visually appealing. 
-
-## Analysing the User Stories 
-
-User Story 1: The website is responsive (please see Bugs section for any anomalies) across all screen sizes, and is accessible. CSS and Bootstrap both integrated into website build.
-
-User Story 2: All images in the site are my own but I moved away from sourcing past cleans as it proved difficult. Stock images not preferable. I moved more towards the narrative angle as mentioned above. This did initially hamper performance but images were resized multiple times to retain quality whilst reducing the image size. 
-
-User Story 3: I decided to go with the CTA to be just in one place as I didn't think it would be very design friendly. There's a hyperlink within the events section that will also take you to the donation section without scrolling back up. Also includes the content that I wanted.
-
-User Story 4: Embedded map that can be opened in order to help with navigation and all pages have social media links. 
-
-User Story 5: I think it's very important to be aware of all individuals when building these sites in the actual coding, but also in the subject matter. So I made sure to highlight that the charity still offers other ways of giving support if you're unable to help due to circumstances like disabilities. 
-
-User Story 6: I decided against this in the end as I wanted the content on the About page more than the reviews. This would merely have been another way to show that I can code another element in to the site rather than being design friendly. The site conveys the cause and what happens on the day very well in my opinion.
 
 ## Website Features 
 
@@ -148,24 +176,7 @@ User Story 6: I decided against this in the end as I wanted the content on the A
 
 ## Testing Carried Out
 
-* [HTML Validator](https://validator.w3.org/#validate_by_input)
-
-![HTML Validation](/assets/images/htmlvalidation.png)
-
-* Important to note: I got full validation on index.html and register html. It initally picked up a couple of duplicate IDs I mistakenly made, these have been rectified.
-
-On about.html however I have 3 warnings: 
-
-* One is for a UL element being the child of another UL. I have attempted to rectify this but I'm very happy with the current layout and any fixes I try at this late stage of the project are making it unappealing for the viewer. 
-* The second is for not having a heading on the map. I personally think it is unnecessary as it's clearly focused on the area around Aberystwyth where the charity work takes place. Adding a hidden heading in here creates more unnecessary code.
-* The third is because the validator is not expecting a % icon in the width class on the map. However it's allowing the map to fit the page responsively as it is so I'm leaving it as it is. 
-
-
-
-
-* [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
-
-![CSS Validation](/assets/images/cssvalidation.png)
+* PUT VALIDATIONS HERE LIKE IN NFL ONE 
 
 * Testing conducted on multiple browsers, devices and OS'.
 * iPhones, Macbooks, Windows laptops, Android tablets, and Android phones all running site responsively for the most part (see Bugs section). Tested on Safari, Edge and Chrome browsers. 
@@ -173,19 +184,15 @@ On about.html however I have 3 warnings:
 
 ## Lighthouse 
 
-![Lighthouse PC result](/assets/images/lighthousepc.jpg)
-
-* This is my Lighthouse score on PC view
-
-![Lighthouse Mobile result](/assets/images/lighthousemobile.jpg)
-
-* This is my Lighthouse score on mobile. The main reasons for this is due to the image but I cannot render these images down much more without suffering on the desktop view too much. The page and image still loads very quickly on all the devices I tested on. 
+????
 
 ## Known Bugs
 
 * There is currently, as far as I'm aware, only one true bug on the site. Nearing the end of my coding whilst I was creating media queries for responsiveness, there was a bug on specific mobiles (with smaller-in-height screens) that pushed the footer icons up in to the area where the donate button is and it overlapped. There is a gap above the sign up form on other media queries, which allows you to see the background more before entering data in the form. To overcome this on mobile I reduced that gap to push everything up and keep the footer in place. All devices that had the issue (iPhone 12 and Samsung S21) have now no longer got this issue. **However** through my testing by sending the website to family and friends, one device - a Samsung S10 - still does this. The media query should include that devices specs so I have not been able to overcome this. 
 
 ## Other Bugs noted that were fixed 
+
+???? Read this 
 
 * One of the stock images I used was smaller than the others so it didn't accommodate the larger screens as well during responsive tests. The fix was adding a min-height of 100% so it filled it's container and looked uniform.
 
