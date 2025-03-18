@@ -40,102 +40,36 @@ My thought process progressed to: "Is the reasoning behind this purely just a ti
 
 # User Experience
 
-## User Stories (Also documented within 'Projects' tab before Project inception)
+## User Stories 
 
-#### 1. As a visitor to the website, I want to easily navigate through information about the cause's mission, upcoming clean-up events, and volunteer sign-up options, so that I can get involved and support the cause effectively.
-
-* Acceptance Criteria:
-
-    The website is fully responsive across various devices and screen sizes.
-    Site layout and navigation are intuitive, allowing easy access to different sections.
-
-* Tasks
-
-    Apply responsive design principles using Bootstrap OR CSS (at early stage of project, unsure which path I'm following) to ensure the website is accessible on various devices.
-    Arrange the site layout and navigation based on best practices, ensuring all key sections and pages are easily accessible.
-
-#### 2. As a visitor to the website, I want to view images and descriptions of past beach clean-up events, so that I can see the impact of the charity's work and feel inspired to participate.
-
-* Acceptance criteria:
-
-    I want the hero image to be related but directly to actual work being done, image should be of Aber beach in its best way. Images of volunteers cleaning up, possibly before and after shots
-    Do this in a clean and professional way
-
-* Tasks
-
-    Source images of past clean-ups and cite these in the credits.
-    Use own image (potentially) for the hero image as I have one in mind.
-    Use either CSS/Bootstrap to achieve layout.
-
-#### 3. As a community member interested in keeping Aberystwyth beaches clean, I want to visit the causes website to learn about upcoming events and volunteer opportunities, so that I can contribute to environmental conservation efforts
-
-* Acceptance Criteria:
-
-    Website has a dedicated banner or page for all upcoming planned cleans.
-    Call to action to 'register' for events unplanned as of yet that would be forthcoming.
-
-* Tasks
-
-    Design with CSS or Bootstrap an area or page with upcoming cleans with locations and times.
-    Potentially add in to the same place, or elsewhere, a list of stuff to bring and stuff that will already be provided by the group leaders.
-    Investigate whether the CTA should be visible in same place on all pages or a different layout.
-
-#### 4. As someone who may not be able to get to every event as I do not live locally, I would like to keep up to date with events that I have missed or others that the cause post about from elsewhere.
-
-* Acceptance criteria
-
-    The homepage will have links to social media where the group regularly update all their followers about cleans and share other content on social media related to their cause.
-    Doesn't take up too much room on the page as to detract from main focus (content and pictures).
-    Has an interactive map for first-time visitors.
-
-* Tasks
-
-    Add social media logos with links in the footer or elsewhere in a minimalist way.
-    Embed Google maps.
-
-#### 5. As someone who is unable to help in a physical manner, I'd like to contribute to the cause through donations
-
-* Acceptance Criteria
-
-    Donation button or other form of contribution (TBC) on the homepage or the register page - unsure if wanted on every page.
-    Clean design.
-
-* Tasks
-
-    Incorporate this button in to the existing design minimally but with enough attention so as it's not easily overlooked.
-
-#### 6. As someone who wants to get involved I'd like to know that the people running the group can be counted on and that the cause is worthwhile from other people in that community, and how much good the cleanups are doing before I commit
-
-* Acceptance Criteria
-
-    Potentially have a testimonials section with 5 (as standard) comments from people who have done the Aber clean, or others.
-    
-* Tasks
-
-    Integrate this either on the homepage or secondary page, potentially scrolling (roulette) so it's not taking up too much space on the page.
+| Goal | How was it achieved? | Pass or Fail |
+| --- | :---: | ---: |
+| As a visitor, I want to quickly understand the purpose of the Aberystwyth Beach Cleanup charity/project so that I can decide if I want to get involved. | Clearly stated navigational items lead the visitor to the appropriate page, also there's guidance to the fact there IS an 'About Us' page directly under the main image | Pass 
+| As a potential volunteer, I want to see upcoming cleanup events so that I can plan to participate | Events blocks on the main page stating upcoming events, and again a signifier for the visitor to 'keep up to date' with the team via the support us page | Pass
+| As a first-time visitor, I want to know where this takes place whether I am joining a clean or not | The Google Maps implant on the About Us page allows for this with Aberystwyth Beach showing in the snippet. It also has a highlighting heading. | Pass 
+| As a donor, or someone who isn't local to Aberystwyth, I want an easy way to contribute financially so that I can support the cleanup efforts. | The registration page allows for this with a fully functioning form, needing all fields to be filled in. | Pass 
+| As a mobile-only user, I want to navigate the site easily using the responsive dropdown menu so that I can access information on any device similar in size. | The nav bar is responsive and will allow full navigation as on larger devices too | Pass 
+| As a social media user, I want to find the charity's social links so that I can follow and share their initiatives. | All pages have a high contrasting (see Contrast Checker section) footer bar with interactive links to social media sites. | Pass 
 
 # Manual Testing 
 
-## Analysing the User Stories 
+## Testing the User Stories 
 
-User Story 1: The website is responsive (please see Bugs section for any anomalies) across all screen sizes, and is accessible. CSS and Bootstrap both integrated into website build.
+| Story | Function | Footage | 
+| --- | :---: | ---: | 
+| User Story 1 | Landing page navigation to the About Us page. The user can navigate to the About Us page on desktop by clicking the button shown in the gif, or navigating the dropdown on smaller devices (see below). This should open in the same tab. | ![gif of navigation](/assets/images/recordings/user%201.gif)
+| User Story 2 | Landing page navigation to Events. The user can navigate to the Events section by simply scrolling on the main page. These are simple informational elements with no user interactivity. | ![gif of navigation to events](/assets/images/recordings/user%202.gif)
+| User Story 3 | Landing page navigation to Map. The user can access the map by scrolling on the About Us page as evidenced in the gif here. Its thumbnail centres on Aberystwyth Beach. | ![gif of map navigation from landing](/assets/images/recordings/user%203.gif)
+| User Story 4 | Donation form demonstration showing needed fields. The user is expected to fill in both fields and a warning will show if one is missed, as evidenced in the gif here.  | ![gif of form submission](/assets/images/recordings/user%204.gif)
+| User Story 5 | Navigation testing on mobile with nav bar usage. The user is expected to have this nav bar dropdown when clicking the + icon on any smaller screen device as evidenced here. The links for the site will all show underlined and will open in the same tab. | ![gif showing nav bar mobile usage](/assets/images/recordings/user%205.gif)
+| User Story 6 | Social media buttons opening on click with Facebook example. The user is expected to be brought to the applicable social media page in a new tab when clicking on any of the icons shown as evidenced here with Facebook as the example. All icons are operating.  | ![gif showing social media links opening](/assets/images/recordings/user%206.gif)
 
-User Story 2: All images in the site are my own but I moved away from sourcing past cleans as it proved difficult. Stock images not preferable. I moved more towards the narrative angle as mentioned above. This did initially hamper performance but images were resized multiple times to retain quality whilst reducing the image size. 
 
-User Story 3: I decided to go with the CTA to be just in one place as I didn't think it would be very design friendly. There's a hyperlink within the events section that will also take you to the donation section without scrolling back up. Also includes the content that I wanted.
-
-User Story 4: Embedded map that can be opened in order to help with navigation and all pages have social media links. 
-
-User Story 5: I think it's very important to be aware of all individuals when building these sites in the actual coding, but also in the subject matter. So I made sure to highlight that the charity still offers other ways of giving support if you're unable to help due to circumstances like disabilities. 
-
-User Story 6: I decided against this in the end as I wanted the content on the About page more than the reviews. This would merely have been another way to show that I can code another element in to the site rather than being design friendly. The site conveys the cause and what happens on the day very well in my opinion.
 
 ### Further manual testing completed 
 
 * Testing conducted on multiple browsers, devices and OS'.
 * iPhones, Macbooks, Windows laptops, Android tablets, and Android phones all running site responsively for the most part (see Bugs section). Tested on Safari, Edge and Chrome browsers. 
-* Navigation buttons working including secondary hyperlinked button to 'Donations' (takes you to support us) in the events section, social media links working, and calls to fill in the fields on the CTA forms working. 
-
 
 # Automated Testing 
 
@@ -160,10 +94,6 @@ I used Lighthouse in Chrome developer tools to test Performance, Accessibility, 
 
 ![Landing Page Wireframe](/assets/images/cleanuplandingpage.jpg) ![About Page Wireframe](/assets/images/aboutpage.jpg) ![Register Page Wireframe](/assets/images/registerpage.jpg)
 
-## Contrast Checker 
-
-![White on Blue Contrast Pass](/assets/images/contrast-checker.png) ![Blue on Orange Contrast Pass](/assets/images/contrast-checker2.png)
-
 ## Notes on design changes, and final design
 
 * The images you see in the above Wireframes are for each page of the website. Images 1.1, 1.2 and 1.3 for the Landing/Home page, running from big screens to mobile left to right. It's the same pattern below that for the About page and the Register/Support page. 
@@ -178,7 +108,11 @@ I used Lighthouse in Chrome developer tools to test Performance, Accessibility, 
 
 * On the same day I took my photos, someone had left a beer bottle in the sand. The registration page features this image now, symbolising a "message in a bottle." This metaphor reflects the outreach and community building aspects of the beach clean initiative, where each registration or donation is like sending a message of hope and commitment to the cause. 
 
-* I had used color picker and based the colors off of what was given to me in the grid, however in the end I just chose what I thought was best and visually appealing. 
+* I had used color picker and based the colors off of what was given to me in the grid, however in the end I just chose what I thought was best and visually appealing. You can see below in the contrast checkers that they pass on both styles I have throughout the website assisting with best practice.
+
+## Contrast Checker 
+
+![White on Blue Contrast Pass](/assets/images/contrast-checker.png) ![Blue on Orange Contrast Pass](/assets/images/contrast-checker2.png)
 
 ## Website Features 
 
