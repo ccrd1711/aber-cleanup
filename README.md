@@ -12,6 +12,8 @@
 
 * [Manual Testing](#manual-testing)
 
+* [Automated Testing](#automated-testing)
+
 * [Design](#design)
 
 * [Wireframes](#wireframes)
@@ -63,13 +65,16 @@ My thought process progressed to: "Is the reasoning behind this purely just a ti
 | User Story 4 | Donation form demonstration showing needed fields. The user is expected to fill in both fields and a warning will show if one is missed, as evidenced in the gif here.  | ![gif of form submission](/assets/images/recordings/user%204.gif)
 | User Story 5 | Navigation testing on mobile with nav bar usage. The user is expected to have this nav bar dropdown when clicking the + icon on any smaller screen device as evidenced here. The links for the site will all show underlined and will open in the same tab. | ![gif showing nav bar mobile usage](/assets/images/recordings/user%205.gif)
 | User Story 6 | Social media buttons opening on click with Facebook example. The user is expected to be brought to the applicable social media page in a new tab when clicking on any of the icons shown as evidenced here with Facebook as the example. All icons are operating.  | ![gif showing social media links opening](/assets/images/recordings/user%206.gif)
-
+| Additional Testing (1) | The user should be able to click the Aber Beach Cleanup Text in the top left to come to the landing page at any time. This is also Passing tests on the live site. | ![gif showing home button navigation](/assets/images/recordings/additonal-test1.gif)
+| Additional Testing (2) | The user should find a completed form when filling in the form to sign up for email updates | ![gif showing pass test on form 1](/assets/images/recordings/additonal-test2.gif)
+| Additional Testing (3) | The user should also find a completed form when donating on the same page. The previous test only showed the missing fields prompt. | ![gif showing past test on form 2](/assets/images/recordings/additonal-test3.gif)
 
 
 ### Further manual testing completed 
 
 * Testing conducted on multiple browsers, devices and OS'.
 * iPhones, Macbooks, Windows laptops, Android tablets, and Android phones all running site responsively for the most part (see Bugs section). Tested on Safari, Edge and Chrome browsers. 
+* All buttons, input boxes, navigation links tests shown in user stories above. 
 
 # Automated Testing 
 
@@ -108,7 +113,7 @@ I used Lighthouse in Chrome developer tools to test Performance, Accessibility, 
 
 * On the same day I took my photos, someone had left a beer bottle in the sand. The registration page features this image now, symbolising a "message in a bottle." This metaphor reflects the outreach and community building aspects of the beach clean initiative, where each registration or donation is like sending a message of hope and commitment to the cause. 
 
-* I had used color picker and based the colors off of what was given to me in the grid, however in the end I just chose what I thought was best and visually appealing. You can see below in the contrast checkers that they pass on both styles I have throughout the website assisting with best practice.
+* I had used color picker and based the colors off of what was given to me in the grid, however in the end I just chose what I thought was best and visually appealing. You can see below in the contrast checkers that they pass on both styles I have throughout the website assisting with best practice. These also align with the colour scheme within the Aberystwyth University website - something I only realised in hindsight - so maybe some inspiration was taken from there, too. 
 
 ## Contrast Checker 
 
@@ -135,10 +140,14 @@ I used Lighthouse in Chrome developer tools to test Performance, Accessibility, 
 * [GitHub](https://github.com)
 * [Image Color Picker](https://imagecolorpicker.com/)
 * [Balsamiq](https://balsamiq.com)
+* [WebAim Contrast Checker](https://webaim.org/resources/contrastchecker/)
+* [MP4 to Gif converter](https://www.freeconvert.com/convert/mp4-to-gif)
 
 ## Known Bugs
 
 * There is currently, as far as I'm aware, only one true bug on the site. Nearing the end of my coding whilst I was creating media queries for responsiveness, there was a bug on specific mobiles (with smaller-in-height screens) that pushed the footer icons up in to the area where the donate button is and it overlapped. There is a gap above the sign up form on other media queries, which allows you to see the background more before entering data in the form. To overcome this on mobile I reduced that gap to push everything up and keep the footer in place. All devices that had the issue (iPhone 12 and Samsung S21) have now no longer got this issue. **However** through my testing by sending the website to family and friends, one device - a Samsung S10 - still does this. The media query should include that devices specs so I have not been able to overcome this. 
+
+* When opening the site directly from a Facebook Messenger link and not fully opening it in a full browser window ( i.e letting it load within the 'browser' within Messenger), the Footer pushes up when the user clicks to put an amount in to Donation. However most users will use full browsers and there's not way of testing this through DevTools. 
 
 ## Other Bugs noted that were fixed 
 
