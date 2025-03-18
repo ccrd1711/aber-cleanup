@@ -130,6 +130,13 @@ User Story 5: I think it's very important to be aware of all individuals when bu
 
 User Story 6: I decided against this in the end as I wanted the content on the About page more than the reviews. This would merely have been another way to show that I can code another element in to the site rather than being design friendly. The site conveys the cause and what happens on the day very well in my opinion.
 
+### Further manual testing completed 
+
+* Testing conducted on multiple browsers, devices and OS'.
+* iPhones, Macbooks, Windows laptops, Android tablets, and Android phones all running site responsively for the most part (see Bugs section). Tested on Safari, Edge and Chrome browsers. 
+* Navigation buttons working including secondary hyperlinked button to 'Donations' (takes you to support us) in the events section, social media links working, and calls to fill in the fields on the CTA forms working. 
+
+
 # Automated Testing 
 
 ## Validators 
@@ -139,6 +146,12 @@ User Story 6: I decided against this in the end as I wanted the content on the A
 * All index.html, about.html & register.html passed with no errors found. 
 
 * CSS file style.css passed with no errors found. 
+
+## Lighthouse 
+
+I used Lighthouse in Chrome developer tools to test Performance, Accessibility, Best Practices, and the SEO of the website.
+
+![Lighthouse Score](/assets/images/lighthousepc-score.png)
 
 
 # Design
@@ -188,18 +201,6 @@ User Story 6: I decided against this in the end as I wanted the content on the A
 * [GitHub](https://github.com)
 * [Image Color Picker](https://imagecolorpicker.com/)
 * [Balsamiq](https://balsamiq.com)
-
-## Testing Carried Out
-
-* PUT VALIDATIONS HERE LIKE IN NFL ONE 
-
-* Testing conducted on multiple browsers, devices and OS'.
-* iPhones, Macbooks, Windows laptops, Android tablets, and Android phones all running site responsively for the most part (see Bugs section). Tested on Safari, Edge and Chrome browsers. 
-* Navigation buttons working including secondary hyperlinked button to 'Donations' (takes you to support us) in the events section, social media links working, and calls to fill in the fields on the CTA forms working. 
-
-## Lighthouse 
-
-????
 
 ## Known Bugs
 
