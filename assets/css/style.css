@@ -221,6 +221,12 @@ nav ul {
   padding-left: 30px;
 }
 
+#map-wrapper h3 {
+  padding-left: 30px;
+  color: white;
+  padding-top: 20px;
+}
+
 #map-wrapper iframe {
   padding-top: 20px;
   width: 100%;
