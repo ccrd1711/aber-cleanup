@@ -187,7 +187,7 @@ nav ul {
 
   
 .event h3 {
-  color: #ddd;
+  color: #ffffff;
   font-size: 24px;
   font-family: "Unna", sans-serif;
   font-weight: 400;
@@ -195,14 +195,14 @@ nav ul {
   }
 
 .event p {
-  color: #ddd;
+  color: #ffffff;
   font-family: "Unna", sans-serif;
   font-size: 20px;
   font-style: normal;
 }
 
 .event ul {
-  color: #ddd;
+  color: #ffffff;
   font-family: "Unna", sans-serif;
   font-size: 20px;
   font-style: normal;
@@ -231,7 +231,7 @@ nav ul {
 }
 
 #map-wrapper iframe {
-  padding-top: 20px;
+  padding-top: 10px;
   width: 100%;
   height: 400px;
 }
@@ -344,6 +344,7 @@ header h1 {
 .upcoming-events {
   display: grid;
   width: 100vw; 
+  gap: 10px;
     }
 
 .image-group {
@@ -351,10 +352,6 @@ header h1 {
   width: 100vw;
   padding: 0 10px;
   grid-template-columns: 1fr;
-    }
-
-#hero {
-  width: 100vw;
     }
 
 #hero-text {
